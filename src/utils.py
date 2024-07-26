@@ -11,6 +11,7 @@ from torch import nn
 import numpy as np
 from sklearn.metrics import mean_squared_error
 
+from logging import getLogger, INFO, StreamHandler, FileHandler, Formatter
 from ptflops import get_model_complexity_info
 
 class AverageMeter(object):
@@ -47,7 +48,6 @@ def get_score(y_trues, y_preds):
     return mcrmse_score, scores
 
 def get_logger(filename='./'+'train'):
-    from logging import getLogger, INFO, StreamHandler, FileHandler, Formatter
     logger = getLogger(__name__)
     logger.setLevel(INFO)
     handler1 = StreamHandler()
