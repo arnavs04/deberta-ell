@@ -2,6 +2,7 @@ import torch
 from torch import nn
 from transformers import AutoConfig, AutoModel
 from utils import *
+
 LOGGER = get_logger()
 
 class MeanPooling(nn.Module):

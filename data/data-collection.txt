@@ -1,0 +1,10 @@
+
+The Feedback Prize English Language Learning dataset is collected from a competition hosted on Kaggle. This dataset consists of English language learning texts submitted by students. The primary objective of the dataset is to facilitate the evaluation of the effectiveness of automated feedback systems for English language learning.
+
+Data Collection Process:
+1. Source: The data is sourced from a variety of English language learning institutions and educational programs.
+2. Content: It includes written submissions by students learning English as a second language. The texts cover a wide range of topics and are of varying lengths.
+3. Annotation: Each text is annotated by expert educators who provide detailed feedback on various aspects of the language used, including grammar, vocabulary, coherence, and structure.
+4. Format: The dataset is available in a structured format with each submission and its corresponding feedback stored in a tabular form. This allows for easy access and analysis.
+
+The dataset aims to support the development and improvement of automated feedback tools, which can assist both students and educators in enhancing English language proficiency.

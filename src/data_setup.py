@@ -1,7 +1,7 @@
-from transformers import AutoTokenizer
 import torch
-from configs import *
 from torch.utils.data import DataLoader, Dataset
+from transformers import AutoTokenizer
+from configs import *
 
 def prepare_input(cfg, text):
     inputs = cfg.tokenizer.encode_plus(
