@@ -8,3 +8,4 @@ transformers
 tokenizers
 scipy
 joblib
+ptflops
