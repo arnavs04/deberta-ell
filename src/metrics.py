@@ -1,5 +1,6 @@
-import torch 
+import torch
 from torch import nn, optim
+
 
 class RMSELoss(nn.Module):
     def __init__(self, reduction='mean', eps=1e-9):

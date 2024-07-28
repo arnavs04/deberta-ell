@@ -52,13 +52,14 @@ def train_fn(fold, train_loader, model, criterion, optimizer, epoch, scheduler, 
                   'Loss: {loss.val:.4f}({loss.avg:.4f}) '
                   'Grad: {grad_norm:.4f}  '
                   'LR: {lr:.8f}  '
-                  .format(epoch+1, step, len(train_loader), 
-                          remain=timeSince(start, float(step+1)/len(train_loader)),
+                  .format(epoch+1, step, len(train_loader),
+                          remain=time_since(start, float(step+1)/len(train_loader)),
                           loss=losses,
                           grad_norm=grad_norm,
                           lr=scheduler.get_lr()[0]))
     
     return losses.avg
+
 
 def valid_fn(valid_loader, model, criterion, device):
     losses = AverageMeter()
@@ -93,8 +94,7 @@ def valid_fn(valid_loader, model, criterion, device):
                   'Loss: {loss.val:.4f}({loss.avg:.4f}) '
                   .format(step, len(valid_loader),
                           loss=losses,
-                          remain=timeSince(start, float(step+1)/len(valid_loader))))
+                          remain=time_since(start, float(step+1)/len(valid_loader))))
 
     predictions = np.concatenate(preds)
     return losses.avg, predictions
-
