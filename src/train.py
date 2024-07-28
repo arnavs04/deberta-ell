@@ -1,40 +1,21 @@
 import os
 import gc
-import re
-import ast
-import sys
-import copy
-import json
 import time
-import math
-import string
-import pickle
-import random
-import joblib
-import itertools
 import warnings
 warnings.filterwarnings("ignore")
 
-import scipy as sp
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
-from sklearn.metrics import mean_squared_error
-from sklearn.model_selection import StratifiedKFold, GroupKFold, KFold
-
-from iterstrat.ml_stratifiers import MultilabelStratifiedKFold
 
 import torch
 import torch.nn as nn
-from torch.nn import Parameter
-import torch.nn.functional as F
-from torch.optim import Adam, SGD, AdamW
-from torch.utils.data import DataLoader, Dataset
+from torch.optim import AdamW
+from torch.utils.data import DataLoader
 
-import transformers
-from transformers import AutoTokenizer, AutoModel, AutoConfig
-from transformers import get_linear_schedule_with_warmup, get_cosine_schedule_with_warmup
-import tokenizers
+from transformers import AutoTokenizer, get_linear_schedule_with_warmup, get_cosine_schedule_with_warmup
+
+from iterstrat.ml_stratifiers import MultilabelStratifiedKFold
 
 from utils import *
 from configs import *
