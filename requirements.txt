@@ -6,6 +6,5 @@ iterative-stratification==0.1.7
 torch
 transformers
 tokenizers
-scipy
 joblib
 ptflops

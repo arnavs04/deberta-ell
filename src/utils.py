@@ -132,7 +132,7 @@ def count_model_flops(model: nn.Module, input_size=(3, 224, 224), print_results=
             model, input_size, as_strings=False, print_per_layer_stat=False, verbose=False
         )
         
-        gflops = macs / 1e9  # Convert MACs to GFLOPs
+        gflops = macs / 1e9  # convert MACs to GFLOPs
 
         if print_results:
             print(f'Computational complexity: {gflops:.3f} GFLOPs')
