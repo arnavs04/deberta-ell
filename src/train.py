@@ -35,8 +35,8 @@ LOGGER = get_logger()
 seed_everything(seed=42)
 
 # load data
-train = pd.read_csv('../deberta-ell/data/feedback-prize-english-language-learning/train.csv')
-test = pd.read_csv('../deberta-ell/data/feedback-prize-english-language-learning/test.csv')
+train = pd.read_csv('content/deberta-ell/data/feedback-prize-english-language-learning/train.csv')
+test = pd.read_csv('content/deberta-ell/data/feedback-prize-english-language-learning/test.csv')
 
 # prepare data
 Fold = MultilabelStratifiedKFold(n_splits=CFG.n_fold, shuffle=True, random_state=CFG.seed)
