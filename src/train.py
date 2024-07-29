@@ -91,7 +91,7 @@ def get_scheduler(cfg, optimizer, num_train_steps):
 
 # training loop
 def train_loop(folds, fold):
-    LOGGER.info(f"========== fold: {fold} training ==========")
+    LOGGER.info(f"-------------- Fold: {fold} Training --------------")
 
     # prepare data
     train_folds = folds[folds['fold'] != fold].reset_index(drop=True)
@@ -184,9 +184,9 @@ if CFG.train:
         if fold in CFG.trn_fold:
             _oof_df = train_loop(train, fold)
             oof_df = pd.concat([oof_df, _oof_df])
-            LOGGER.info(f"========== fold: {fold} result ==========")
+            LOGGER.info(f"-------------- Fold: {fold} Result --------------")
             get_result(_oof_df)
     oof_df = oof_df.reset_index(drop=True)
-    LOGGER.info(f"========== CV ==========")
+    LOGGER.info(f"-------------- CV --------------")
     get_result(oof_df)
     oof_df.to_pickle(OUTPUT_DIR + 'oof_df.pkl')
