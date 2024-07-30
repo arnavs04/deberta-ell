@@ -27,7 +27,7 @@ print("Imports Done")
 
 # set environment variable
 os.environ['TOKENIZERS_PARALLELISM'] = 'true'
-OUTPUT_DIR = '/kaggle/working/'
+OUTPUT_DIR = '/kaggle/working/' # 'deberta-ell/logs'
 
 # setup
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -35,8 +35,8 @@ LOGGER = get_logger()
 seed_everything(seed=42)
 
 # load data
-train = pd.read_csv('/kaggle/input/feedback-prize-english-language-learning/train.csv')
-test = pd.read_csv('/kaggle/input/feedback-prize-english-language-learning/test.csv')
+train = pd.read_csv('/kaggle/input/feedback-prize-english-language-learning/train.csv') # 'deberta-ell/data/feedback-prize-english-language-learning/train.csv'
+test = pd.read_csv('/kaggle/input/feedback-prize-english-language-learning/test.csv') # 'deberta-ell/data/feedback-prize-english-language-learning/test.csv'
 
 # prepare data
 Fold = MultilabelStratifiedKFold(n_splits=CFG.n_fold, shuffle=True, random_state=CFG.seed)
