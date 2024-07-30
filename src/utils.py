@@ -16,8 +16,6 @@ from ptflops import get_model_complexity_info
 
 
 class AverageMeter:
-    """Computes and stores the average and current value."""
-    
     def __init__(self):
         self.reset()
 

@@ -1,0 +1,1027 @@
+7.3s 1 Cloning into 'deberta-ell'...
+7.7s 2 remote: Enumerating objects: 150, done.[K
+7.7s 3 remote: Counting objects:   0% (1/150)[Kremote: Counting objects:   1% (2/150)[Kremote: Counting objects:   2% (3/150)[Kremote: Counting objects:   3% (5/150)[Kremote: Counting objects:   4% (6/150)[Kremote: Counting objects:   5% (8/150)[Kremote: Counting objects:   6% (9/150)[Kremote: Counting objects:   7% (11/150)[Kremote: Counting objects:   8% (12/150)[Kremote: Counting objects:   9% (14/150)[Kremote: Counting objects:  10% (15/150)[Kremote: Counting objects:  11% (17/150)[Kremote: Counting objects:  12% (18/150)[Kremote: Counting objects:  13% (20/150)[Kremote: Counting objects:  14% (21/150)[Kremote: Counting objects:  15% (23/150)[Kremote: Counting objects:  16% (24/150)[Kremote: Counting objects:  17% (26/150)[Kremote: Counting objects:  18% (27/150)[Kremote: Counting objects:  19% (29/150)[Kremote: Counting objects:  20% (30/150)[Kremote: Counting objects:  21% (32/150)[Kremote: Counting objects:  22% (33/150)[Kremote: Counting objects:  23% (35/150)[Kremote: Counting objects:  24% (36/150)[Kremote: Counting objects:  25% (38/150)[Kremote: Counting objects:  26% (39/150)[Kremote: Counting objects:  27% (41/150)[Kremote: Counting objects:  28% (42/150)[Kremote: Counting objects:  29% (44/150)[Kremote: Counting objects:  30% (45/150)[Kremote: Counting objects:  31% (47/150)[Kremote: Counting objects:  32% (48/150)[Kremote: Counting objects:  33% (50/150)[Kremote: Counting objects:  34% (51/150)[Kremote: Counting objects:  35% (53/150)[Kremote: Counting objects:  36% (54/150)[Kremote: Counting objects:  37% (56/150)[Kremote: Counting objects:  38% (57/150)[Kremote: Counting objects:  39% (59/150)[Kremote: Counting objects:  40% (60/150)[Kremote: Counting objects:  41% (62/150)[Kremote: Counting objects:  42% (63/150)[Kremote: Counting objects:  43% (65/150)[Kremote: Counting objects:  44% (66/150)[Kremote: Counting objects:  45% (68/150)[Kremote: Counting objects:  46% (69/150)[Kremote: Counting objects:  47% (71/150)[Kremote: Counting objects:  48% (72/150)[Kremote: Counting objects:  49% (74/150)[Kremote: Counting objects:  50% (75/150)[Kremote: Counting objects:  51% (77/150)[Kremote: Counting objects:  52% (78/150)[Kremote: Counting objects:  53% (80/150)[Kremote: Counting objects:  54% (81/150)[Kremote: Counting objects:  55% (83/150)[Kremote: Counting objects:  56% (84/150)[Kremote: Counting objects:  57% (86/150)[Kremote: Counting objects:  58% (87/150)[Kremote: Counting objects:  59% (89/150)[Kremote: Counting objects:  60% (90/150)[Kremote: Counting objects:  61% (92/150)[Kremote: Counting objects:  62% (93/150)[Kremote: Counting objects:  63% (95/150)[Kremote: Counting objects:  64% (96/150)[Kremote: Counting objects:  65% (98/150)[Kremote: Counting objects:  66% (99/150)[Kremote: Counting objects:  67% (101/150)[Kremote: Counting objects:  68% (102/150)[Kremote: Counting objects:  69% (104/150)[Kremote: Counting objects:  70% (105/150)[Kremote: Counting objects:  71% (107/150)[Kremote: Counting objects:  72% (108/150)[Kremote: Counting objects:  73% (110/150)[Kremote: Counting objects:  74% (111/150)[Kremote: Counting objects:  75% (113/150)[Kremote: Counting objects:  76% (114/150)[Kremote: Counting objects:  77% (116/150)[Kremote: Counting objects:  78% (117/150)[Kremote: Counting objects:  79% (119/150)[Kremote: Counting objects:  80% (120/150)[Kremote: Counting objects:  81% (122/150)[Kremote: Counting objects:  82% (123/150)[Kremote: Counting objects:  83% (125/150)[Kremote: Counting objects:  84% (126/150)[Kremote: Counting objects:  85% (128/150)[Kremote: Counting objects:  86% (129/150)[Kremote: Counting objects:  87% (131/150)[Kremote: Counting objects:  88% (132/150)[Kremote: Counting objects:  89% (134/150)[Kremote: Counting objects:  90% (135/150)[Kremote: Counting objects:  91% (137/150)[Kremote: Counting objects:  92% (138/150)[Kremote: Counting objects:  93% (140/150)[Kremote: Counting objects:  94% (141/150)[Kremote: Counting objects:  95% (143/150)[Kremote: Counting objects:  96% (144/150)[Kremote: Counting objects:  97% (146/150)[Kremote: Counting objects:  98% (147/150)[Kremote: Counting objects:  99% (149/150)[Kremote: Counting objects: 100% (150/150)[Kremote: Counting objects: 100% (150/150), done.[K
+7.8s 4 remote: Compressing objects:   0% (1/109)[Kremote: Compressing objects:   1% (2/109)[Kremote: Compressing objects:   2% (3/109)[Kremote: Compressing objects:   3% (4/109)[Kremote: Compressing objects:   4% (5/109)[Kremote: Compressing objects:   5% (6/109)[Kremote: Compressing objects:   6% (7/109)[Kremote: Compressing objects:   7% (8/109)[Kremote: Compressing objects:   8% (9/109)[Kremote: Compressing objects:   9% (10/109)[Kremote: Compressing objects:  10% (11/109)[Kremote: Compressing objects:  11% (12/109)[Kremote: Compressing objects:  12% (14/109)[Kremote: Compressing objects:  13% (15/109)[Kremote: Compressing objects:  14% (16/109)[Kremote: Compressing objects:  15% (17/109)[Kremote: Compressing objects:  16% (18/109)[Kremote: Compressing objects:  17% (19/109)[Kremote: Compressing objects:  18% (20/109)[Kremote: Compressing objects:  19% (21/109)[Kremote: Compressing objects:  20% (22/109)[Kremote: Compressing objects:  21% (23/109)[Kremote: Compressing objects:  22% (24/109)[Kremote: Compressing objects:  23% (26/109)[Kremote: Compressing objects:  24% (27/109)[Kremote: Compressing objects:  25% (28/109)[Kremote: Compressing objects:  26% (29/109)[Kremote: Compressing objects:  27% (30/109)[Kremote: Compressing objects:  28% (31/109)[Kremote: Compressing objects:  29% (32/109)[Kremote: Compressing objects:  30% (33/109)[Kremote: Compressing objects:  31% (34/109)[Kremote: Compressing objects:  32% (35/109)[Kremote: Compressing objects:  33% (36/109)[Kremote: Compressing objects:  34% (38/109)[Kremote: Compressing objects:  35% (39/109)[Kremote: Compressing objects:  36% (40/109)[Kremote: Compressing objects:  37% (41/109)[Kremote: Compressing objects:  38% (42/109)[Kremote: Compressing objects:  39% (43/109)[Kremote: Compressing objects:  40% (44/109)[Kremote: Compressing objects:  41% (45/109)[Kremote: Compressing objects:  42% (46/109)[Kremote: Compressing objects:  43% (47/109)[Kremote: Compressing objects:  44% (48/109)[Kremote: Compressing objects:  45% (50/109)[Kremote: Compressing objects:  46% (51/109)[Kremote: Compressing objects:  47% (52/109)[Kremote: Compressing objects:  48% (53/109)[Kremote: Compressing objects:  49% (54/109)[Kremote: Compressing objects:  50% (55/109)[Kremote: Compressing objects:  51% (56/109)[Kremote: Compressing objects:  52% (57/109)[Kremote: Compressing objects:  53% (58/109)[Kremote: Compressing objects:  54% (59/109)[Kremote: Compressing objects:  55% (60/109)[Kremote: Compressing objects:  56% (62/109)[Kremote: Compressing objects:  57% (63/109)[Kremote: Compressing objects:  58% (64/109)[Kremote: Compressing objects:  59% (65/109)[Kremote: Compressing objects:  60% (66/109)[Kremote: Compressing objects:  61% (67/109)[Kremote: Compressing objects:  62% (68/109)[Kremote: Compressing objects:  63% (69/109)[Kremote: Compressing objects:  64% (70/109)[Kremote: Compressing objects:  65% (71/109)[Kremote: Compressing objects:  66% (72/109)[Kremote: Compressing objects:  67% (74/109)[Kremote: Compressing objects:  68% (75/109)[Kremote: Compressing objects:  69% (76/109)[Kremote: Compressing objects:  70% (77/109)[Kremote: Compressing objects:  71% (78/109)[Kremote: Compressing objects:  72% (79/109)[Kremote: Compressing objects:  73% (80/109)[Kremote: Compressing objects:  74% (81/109)[Kremote: Compressing objects:  75% (82/109)[Kremote: Compressing objects:  76% (83/109)[Kremote: Compressing objects:  77% (84/109)[Kremote: Compressing objects:  78% (86/109)[Kremote: Compressing objects:  79% (87/109)[Kremote: Compressing objects:  80% (88/109)[Kremote: Compressing objects:  81% (89/109)[Kremote: Compressing objects:  82% (90/109)[Kremote: Compressing objects:  83% (91/109)[Kremote: Compressing objects:  84% (92/109)[Kremote: Compressing objects:  85% (93/109)[Kremote: Compressing objects:  86% (94/109)[Kremote: Compressing objects:  87% (95/109)[Kremote: Compressing objects:  88% (96/109)[Kremote: Compressing objects:  89% (98/109)[Kremote: Compressing objects:  90% (99/109)[Kremote: Compressing objects:  91% (100/109)[Kremote: Compressing objects:  92% (101/109)[Kremote: Compressing objects:  93% (102/109)[Kremote: Compressing objects:  94% (103/109)[Kremote: Compressing objects:  95% (104/109)[Kremote: Compressing objects:  96% (105/109)[Kremote: Compressing objects:  97% (106/109)[Kremote: Compressing objects:  98% (107/109)[Kremote: Compressing objects:  99% (108/109)[Kremote: Compressing objects: 100% (109/109)[Kremote: Compressing objects: 100% (109/109), done.[K
+8.1s 5 Receiving objects:   0% (1/150)Receiving objects:   1% (2/150)Receiving objects:   2% (3/150)Receiving objects:   3% (5/150)Receiving objects:   4% (6/150)Receiving objects:   5% (8/150)Receiving objects:   6% (9/150)Receiving objects:   7% (11/150)Receiving objects:   8% (12/150)Receiving objects:   9% (14/150)Receiving objects:  10% (15/150)Receiving objects:  11% (17/150)Receiving objects:  12% (18/150)Receiving objects:  13% (20/150)Receiving objects:  14% (21/150)Receiving objects:  15% (23/150)Receiving objects:  16% (24/150)Receiving objects:  17% (26/150)Receiving objects:  18% (27/150)Receiving objects:  19% (29/150)Receiving objects:  20% (30/150)Receiving objects:  21% (32/150)Receiving objects:  22% (33/150)Receiving objects:  23% (35/150)Receiving objects:  24% (36/150)Receiving objects:  25% (38/150)Receiving objects:  26% (39/150)Receiving objects:  27% (41/150)Receiving objects:  28% (42/150)Receiving objects:  29% (44/150)Receiving objects:  30% (45/150)Receiving objects:  31% (47/150)Receiving objects:  32% (48/150)Receiving objects:  33% (50/150)Receiving objects:  34% (51/150)Receiving objects:  35% (53/150)Receiving objects:  36% (54/150)Receiving objects:  37% (56/150)Receiving objects:  38% (57/150)Receiving objects:  39% (59/150)Receiving objects:  40% (60/150)Receiving objects:  41% (62/150)Receiving objects:  42% (63/150)Receiving objects:  43% (65/150)Receiving objects:  44% (66/150)Receiving objects:  45% (68/150)Receiving objects:  46% (69/150)Receiving objects:  47% (71/150)Receiving objects:  48% (72/150)Receiving objects:  49% (74/150)Receiving objects:  50% (75/150)Receiving objects:  51% (77/150)Receiving objects:  52% (78/150)Receiving objects:  53% (80/150)Receiving objects:  54% (81/150)Receiving objects:  55% (83/150)Receiving objects:  56% (84/150)Receiving objects:  57% (86/150)Receiving objects:  58% (87/150)Receiving objects:  59% (89/150)Receiving objects:  60% (90/150)Receiving objects:  61% (92/150)Receiving objects:  62% (93/150)Receiving objects:  63% (95/150)Receiving objects:  64% (96/150)remote: Total 150 (delta 70), reused 106 (delta 34), pack-reused 0[K
+8.1s 6 Receiving objects:  65% (98/150)Receiving objects:  66% (99/150)Receiving objects:  67% (101/150)Receiving objects:  68% (102/150)Receiving objects:  69% (104/150)Receiving objects:  70% (105/150)Receiving objects:  71% (107/150)Receiving objects:  72% (108/150)Receiving objects:  73% (110/150)Receiving objects:  74% (111/150)Receiving objects:  75% (113/150)Receiving objects:  76% (114/150)Receiving objects:  77% (116/150)Receiving objects:  78% (117/150)Receiving objects:  79% (119/150)Receiving objects:  80% (120/150)Receiving objects:  81% (122/150)Receiving objects:  82% (123/150)Receiving objects:  83% (125/150)Receiving objects:  84% (126/150)Receiving objects:  85% (128/150)Receiving objects:  86% (129/150)Receiving objects:  87% (131/150)Receiving objects:  88% (132/150)Receiving objects:  89% (134/150)Receiving objects:  90% (135/150)Receiving objects:  91% (137/150)Receiving objects:  92% (138/150)Receiving objects:  93% (140/150)Receiving objects:  94% (141/150)Receiving objects:  95% (143/150)Receiving objects:  96% (144/150)Receiving objects:  97% (146/150)Receiving objects:  98% (147/150)Receiving objects:  99% (149/150)Receiving objects: 100% (150/150)Receiving objects: 100% (150/150), 7.61 MiB | 25.55 MiB/s, done.
+8.1s 7 Resolving deltas:   0% (0/70)Resolving deltas:   4% (3/70)Resolving deltas:  10% (7/70)Resolving deltas:  17% (12/70)Resolving deltas:  27% (19/70)Resolving deltas:  30% (21/70)Resolving deltas:  31% (22/70)Resolving deltas:  32% (23/70)Resolving deltas:  34% (24/70)Resolving deltas:  35% (25/70)Resolving deltas:  40% (28/70)Resolving deltas:  41% (29/70)Resolving deltas:  44% (31/70)Resolving deltas:  45% (32/70)Resolving deltas:  55% (39/70)Resolving deltas:  58% (41/70)Resolving deltas:  62% (44/70)Resolving deltas:  65% (46/70)Resolving deltas:  67% (47/70)Resolving deltas:  70% (49/70)Resolving deltas:  78% (55/70)Resolving deltas:  82% (58/70)Resolving deltas:  87% (61/70)Resolving deltas:  91% (64/70)Resolving deltas:  95% (67/70)Resolving deltas: 100% (70/70)Resolving deltas: 100% (70/70), done.
+8.4s 8 /kaggle/working/deberta-ell
+57.0s 9 Imports Done
+57.7s 10 tokenizer_config.json:   0%|                         | 0.00/52.0 [00:00<?, ?B/s]tokenizer_config.json: 100%|██████████████████| 52.0/52.0 [00:00<00:00, 390kB/s]
+57.8s 11 config.json:   0%|                                    | 0.00/579 [00:00<?, ?B/s]config.json: 100%|█████████████████████████████| 579/579 [00:00<00:00, 5.02MB/s]
+58.0s 12 spm.model:   0%|                                    | 0.00/2.46M [00:00<?, ?B/s]spm.model: 100%|███████████████████████████| 2.46M/2.46M [00:00<00:00, 30.8MB/s]
+64.0s 13 0%|                                                  | 0/3911 [00:00<?, ?it/s]  2%|▋                                       | 68/3911 [00:00<00:05, 679.11it/s]  4%|█▍                                     | 149/3911 [00:00<00:04, 755.96it/s]  6%|██▍                                    | 242/3911 [00:00<00:04, 832.44it/s]  8%|███▎                                   | 326/3911 [00:00<00:04, 834.15it/s] 11%|████                                   | 412/3911 [00:00<00:04, 840.93it/s] 13%|████▉                                  | 500/3911 [00:00<00:03, 853.62it/s] 15%|█████▊                                 | 589/3911 [00:00<00:03, 864.04it/s] 17%|██████▋                                | 676/3911 [00:00<00:03, 859.35it/s] 19%|███████▌                               | 762/3911 [00:00<00:03, 857.23it/s] 22%|████████▍                              | 850/3911 [00:01<00:03, 864.05it/s] 24%|█████████▎                             | 937/3911 [00:01<00:03, 841.69it/s] 26%|█████████▉                            | 1023/3911 [00:01<00:03, 845.07it/s] 28%|██████████▊                           | 1108/3911 [00:01<00:03, 818.63it/s] 31%|███████████▋                          | 1197/3911 [00:01<00:03, 837.80it/s] 33%|████████████▍                         | 1284/3911 [00:01<00:03, 844.84it/s] 35%|█████████████▎                        | 1370/3911 [00:01<00:02, 847.49it/s] 37%|██████████████▏                       | 1455/3911 [00:01<00:02, 848.06it/s] 39%|██████████████▉                       | 1540/3911 [00:01<00:02, 829.04it/s] 42%|███████████████▊                      | 1624/3911 [00:01<00:02, 827.48it/s] 44%|████████████████▌                     | 1709/3911 [00:02<00:02, 832.31it/s] 46%|█████████████████▍                    | 1797/3911 [00:02<00:02, 845.61it/s] 48%|██████████████████▎                   | 1885/3911 [00:02<00:02, 855.49it/s] 51%|███████████████████▏                  | 1979/3911 [00:02<00:02, 878.18it/s] 53%|████████████████████▏                 | 2073/3911 [00:02<00:02, 894.61it/s] 55%|█████████████████████                 | 2164/3911 [00:02<00:01, 899.16it/s] 58%|█████████████████████▉                | 2254/3911 [00:02<00:01, 879.04it/s] 60%|██████████████████████▊               | 2343/3911 [00:02<00:01, 859.75it/s] 62%|███████████████████████▋              | 2435/3911 [00:02<00:01, 873.68it/s] 65%|████████████████████████▌             | 2523/3911 [00:02<00:01, 868.76it/s] 67%|█████████████████████████▎            | 2611/3911 [00:03<00:01, 869.50it/s] 69%|██████████████████████████▎           | 2703/3911 [00:03<00:01, 884.35it/s] 71%|███████████████████████████▏          | 2792/3911 [00:03<00:01, 872.85it/s] 74%|███████████████████████████▉          | 2880/3911 [00:03<00:01, 863.10it/s] 76%|████████████████████████████▊         | 2968/3911 [00:03<00:01, 861.47it/s] 78%|█████████████████████████████▋        | 3058/3911 [00:03<00:00, 871.76it/s] 80%|██████████████████████████████▌       | 3147/3911 [00:03<00:00, 875.10it/s] 83%|███████████████████████████████▍      | 3235/3911 [00:03<00:00, 869.64it/s] 85%|████████████████████████████████▎     | 3326/3911 [00:03<00:00, 880.97it/s] 87%|█████████████████████████████████▏    | 3415/3911 [00:03<00:00, 871.65it/s] 90%|██████████████████████████████████    | 3503/3911 [00:04<00:00, 864.57it/s] 92%|██████████████████████████████████▉   | 3591/3911 [00:04<00:00, 867.89it/s] 94%|███████████████████████████████████▋  | 3678/3911 [00:04<00:00, 856.65it/s] 96%|████████████████████████████████████▌ | 3764/3911 [00:04<00:00, 852.40it/s] 99%|█████████████████████████████████████▍| 3857/3911 [00:04<00:00, 873.71it/s]100%|██████████████████████████████████████| 3911/3911 [00:04<00:00, 858.62it/s]
+64.0s 14 -------------- Fold: 0 Training --------------
+64.0s 15 -------------- Fold: 0 Training --------------
+64.0s 16 -------------- Fold: 0 Training --------------
+64.2s 17 DebertaV2Config {
+64.2s 18 "_name_or_path": "microsoft/deberta-v3-base",
+64.2s 19 "attention_dropout": 0.0,
+64.2s 20 "attention_probs_dropout_prob": 0.0,
+64.2s 21 "hidden_act": "gelu",
+64.2s 22 "hidden_dropout": 0.0,
+64.2s 23 "hidden_dropout_prob": 0.0,
+64.2s 24 "hidden_size": 768,
+64.2s 25 "initializer_range": 0.02,
+64.2s 26 "intermediate_size": 3072,
+64.2s 27 "layer_norm_eps": 1e-07,
+64.2s 28 "max_position_embeddings": 512,
+64.2s 29 "max_relative_positions": -1,
+64.2s 30 "model_type": "deberta-v2",
+64.2s 31 "norm_rel_ebd": "layer_norm",
+64.2s 32 "num_attention_heads": 12,
+64.2s 33 "num_hidden_layers": 12,
+64.2s 34 "output_hidden_states": true,
+64.2s 35 "pad_token_id": 0,
+64.2s 36 "pooler_dropout": 0,
+64.2s 37 "pooler_hidden_act": "gelu",
+64.2s 38 "pooler_hidden_size": 768,
+64.2s 39 "pos_att_type": [
+64.2s 40 "p2c",
+64.2s 41 "c2p"
+64.2s 42 ],
+64.2s 43 "position_biased_input": false,
+64.2s 44 "position_buckets": 256,
+64.2s 45 "relative_attention": true,
+64.2s 46 "share_att_key": true,
+64.2s 47 "transformers_version": "4.42.3",
+64.2s 48 "type_vocab_size": 0,
+64.2s 49 "vocab_size": 128100
+64.2s 50 }
+64.2s 51 
+64.2s 52 DebertaV2Config {
+64.2s 53 "_name_or_path": "microsoft/deberta-v3-base",
+64.2s 54 "attention_dropout": 0.0,
+64.2s 55 "attention_probs_dropout_prob": 0.0,
+64.2s 56 "hidden_act": "gelu",
+64.2s 57 "hidden_dropout": 0.0,
+64.2s 58 "hidden_dropout_prob": 0.0,
+64.2s 59 "hidden_size": 768,
+64.2s 60 "initializer_range": 0.02,
+64.2s 61 "intermediate_size": 3072,
+64.2s 62 "layer_norm_eps": 1e-07,
+64.2s 63 "max_position_embeddings": 512,
+64.2s 64 "max_relative_positions": -1,
+64.2s 65 "model_type": "deberta-v2",
+64.2s 66 "norm_rel_ebd": "layer_norm",
+64.2s 67 "num_attention_heads": 12,
+64.2s 68 "num_hidden_layers": 12,
+64.2s 69 "output_hidden_states": true,
+64.2s 70 "pad_token_id": 0,
+64.2s 71 "pooler_dropout": 0,
+64.2s 72 "pooler_hidden_act": "gelu",
+64.2s 73 "pooler_hidden_size": 768,
+64.2s 74 "pos_att_type": [
+64.2s 75 "p2c",
+64.2s 76 "c2p"
+64.2s 77 ],
+64.2s 78 "position_biased_input": false,
+64.2s 79 "position_buckets": 256,
+64.2s 80 "relative_attention": true,
+64.2s 81 "share_att_key": true,
+64.2s 82 "transformers_version": "4.42.3",
+64.2s 83 "type_vocab_size": 0,
+64.2s 84 "vocab_size": 128100
+64.2s 85 }
+64.2s 86 
+64.2s 87 DebertaV2Config {
+64.2s 88 "_name_or_path": "microsoft/deberta-v3-base",
+64.2s 89 "attention_dropout": 0.0,
+64.2s 90 "attention_probs_dropout_prob": 0.0,
+64.2s 91 "hidden_act": "gelu",
+64.2s 92 "hidden_dropout": 0.0,
+64.2s 93 "hidden_dropout_prob": 0.0,
+64.2s 94 "hidden_size": 768,
+64.2s 95 "initializer_range": 0.02,
+64.2s 96 "intermediate_size": 3072,
+64.2s 97 "layer_norm_eps": 1e-07,
+64.2s 98 "max_position_embeddings": 512,
+64.2s 99 "max_relative_positions": -1,
+64.2s 100 "model_type": "deberta-v2",
+64.2s 101 "norm_rel_ebd": "layer_norm",
+64.2s 102 "num_attention_heads": 12,
+64.2s 103 "num_hidden_layers": 12,
+64.2s 104 "output_hidden_states": true,
+64.2s 105 "pad_token_id": 0,
+64.2s 106 "pooler_dropout": 0,
+64.2s 107 "pooler_hidden_act": "gelu",
+64.2s 108 "pooler_hidden_size": 768,
+64.2s 109 "pos_att_type": [
+64.2s 110 "p2c",
+64.2s 111 "c2p"
+64.2s 112 ],
+64.2s 113 "position_biased_input": false,
+64.2s 114 "position_buckets": 256,
+64.2s 115 "relative_attention": true,
+64.2s 116 "share_att_key": true,
+64.2s 117 "transformers_version": "4.42.3",
+64.2s 118 "type_vocab_size": 0,
+64.2s 119 "vocab_size": 128100
+64.2s 120 }
+64.2s 121 
+66.9s 122 pytorch_model.bin:   0%|                             | 0.00/371M [00:00<?, ?B/s]pytorch_model.bin:   6%|█▏                   | 21.0M/371M [00:00<00:01, 177MB/s]pytorch_model.bin:  11%|██▎                  | 41.9M/371M [00:00<00:01, 176MB/s]pytorch_model.bin:  17%|███▌                 | 62.9M/371M [00:00<00:01, 190MB/s]pytorch_model.bin:  25%|█████▎               | 94.4M/371M [00:00<00:01, 201MB/s]pytorch_model.bin:  34%|███████▍              | 126M/371M [00:00<00:01, 204MB/s]pytorch_model.bin:  42%|█████████▎            | 157M/371M [00:00<00:01, 209MB/s]pytorch_model.bin:  51%|███████████▏          | 189M/371M [00:00<00:00, 211MB/s]pytorch_model.bin:  59%|█████████████         | 220M/371M [00:01<00:00, 214MB/s]pytorch_model.bin:  68%|██████████████▉       | 252M/371M [00:01<00:00, 214MB/s]pytorch_model.bin:  76%|████████████████▊     | 283M/371M [00:01<00:00, 212MB/s]pytorch_model.bin:  85%|██████████████████▋   | 315M/371M [00:01<00:00, 213MB/s]pytorch_model.bin:  93%|████████████████████▌ | 346M/371M [00:01<00:00, 212MB/s]pytorch_model.bin: 100%|██████████████████████| 371M/371M [00:01<00:00, 208MB/s]pytorch_model.bin: 100%|██████████████████████| 371M/371M [00:01<00:00, 207MB/s]
+71.0s 123 Epoch: [1][0/366] Elapsed 0m 3.1111793518066406s (remain 18m 55.58046340942383s) Loss: 2.3492(2.3492) Grad: inf  LR: 0.00002000
+106.0s 124 Epoch: [1][20/366] Elapsed 0m 38.11942267417908s (remain 10m 26.247658218656284s) Loss: 0.1988(1.4906) Grad: 75010.7266  LR: 0.00001999
+138.7s 125 Epoch: [1][40/366] Elapsed 1m 10.80665922164917s (remain 9m 21.272298708194626s) Loss: 0.1329(0.8578) Grad: 118799.7266  LR: 0.00001996
+174.4s 126 Epoch: [1][60/366] Elapsed 1m 46.55406475067139s (remain 8m 52.770323753356934s) Loss: 0.2067(0.6482) Grad: 157726.8438  LR: 0.00001991
+211.1s 127 Epoch: [1][80/366] Elapsed 2m 23.19808030128479s (remain 8m 23.845097356372435s) Loss: 0.1787(0.5313) Grad: 117306.9531  LR: 0.00001985
+242.6s 128 Epoch: [1][100/366] Elapsed 2m 54.7902090549469s (remain 7m 38.60797425307851s) Loss: 0.0947(0.4555) Grad: 50293.4141  LR: 0.00001977
+275.6s 129 Epoch: [1][120/366] Elapsed 3m 27.769361972808838s (remain 7m 0.6900304408113698s) Loss: 0.1031(0.4015) Grad: 73160.5781  LR: 0.00001967
+306.3s 130 Epoch: [1][140/366] Elapsed 3m 58.44838261604309s (remain 6m 20.50273821709004s) Loss: 0.0735(0.3630) Grad: 36800.6211  LR: 0.00001955
+338.0s 131 Epoch: [1][160/366] Elapsed 4m 30.122910261154175s (remain 5m 43.94532051886097s) Loss: 0.2430(0.3336) Grad: 200005.1562  LR: 0.00001941
+377.1s 132 Epoch: [1][180/366] Elapsed 5m 9.261375188827515s (remain 5m 16.09588071786243s) Loss: 0.0993(0.3110) Grad: 53337.1016  LR: 0.00001926
+415.0s 133 Epoch: [1][200/366] Elapsed 5m 47.07516360282898s (remain 4m 44.912447733665545s) Loss: 0.1292(0.2925) Grad: 61463.8398  LR: 0.00001909
+450.2s 134 Epoch: [1][220/366] Elapsed 6m 22.316271543502808s (remain 4m 10.840992641664684s) Loss: 0.0855(0.2761) Grad: 26944.3555  LR: 0.00001890
+486.8s 135 Epoch: [1][240/366] Elapsed 6m 58.91825318336487s (remain 3m 37.28125165112294s) Loss: 0.1336(0.2621) Grad: 42058.6211  LR: 0.00001870
+519.1s 136 Epoch: [1][260/366] Elapsed 7m 31.213098764419556s (remain 3m 1.522510997180234s) Loss: 0.1109(0.2528) Grad: 60068.3633  LR: 0.00001848
+550.0s 137 Epoch: [1][280/366] Elapsed 8m 2.1865880489349365s (remain 2m 25.857152968539026s) Loss: 0.1511(0.2436) Grad: 44296.6016  LR: 0.00001824
+582.1s 138 Epoch: [1][300/366] Elapsed 8m 34.223085165023804s (remain 1m 51.044852278161216s) Loss: 0.1101(0.2346) Grad: 37473.5781  LR: 0.00001799
+620.3s 139 Epoch: [1][320/366] Elapsed 9m 12.476767539978027s (remain 1m 17.45001414111846s) Loss: 0.1479(0.2272) Grad: 31932.6094  LR: 0.00001773
+650.7s 140 Epoch: [1][340/366] Elapsed 9m 42.83217525482178s (remain 0m 42.72963161692235s) Loss: 0.1217(0.2205) Grad: 84034.6406  LR: 0.00001745
+685.2s 141 Epoch: [1][360/366] Elapsed 10m 17.358470678329468s (remain 0m 8.550671339035034s) Loss: 0.1492(0.2143) Grad: 45178.6328  LR: 0.00001715
+695.0s 142 Epoch: [1][365/366] Elapsed 10m 27.104947566986084s (remain 0m 0.0s) Loss: 0.1137(0.2129) Grad: 46844.5625  LR: 0.00001708
+696.0s 143 EVAL: [0/62] Elapsed 0m 0.9843308925628662s (remain 1m 0.04418444633483887s) Loss: 0.0793(0.0793)
+719.7s 144 EVAL: [20/62] Elapsed 0m 24.688648223876953s (remain 0m 48.201646532331196s) Loss: 0.0746(0.1056)
+746.1s 145 EVAL: [40/62] Elapsed 0m 51.132734298706055s (remain 0m 26.189937079825057s) Loss: 0.0784(0.1054)
+768.1s 146 EVAL: [60/62] Elapsed 1m 13.072787284851074s (remain 0m 1.1979145456532905s) Loss: 0.0906(0.1070)
+768.1s 147 EVAL: [61/62] Elapsed 1m 13.11076307296753s (remain 0m 0.0s) Loss: 0.1121(0.1070)
+768.1s 148 Epoch 1 - avg_train_loss: 0.2129  avg_val_loss: 0.1070  time: 700s
+768.1s 149 Epoch 1 - avg_train_loss: 0.2129  avg_val_loss: 0.1070  time: 700s
+768.1s 150 Epoch 1 - avg_train_loss: 0.2129  avg_val_loss: 0.1070  time: 700s
+768.1s 151 Epoch 1 - Score: 0.4632  Scores: [0.5015830200415488, 0.4477686986451035, 0.4265264654577466, 0.4721754664535233, 0.47029763182252343, 0.4610785065134777]
+768.1s 152 Epoch 1 - Score: 0.4632  Scores: [0.5015830200415488, 0.4477686986451035, 0.4265264654577466, 0.4721754664535233, 0.47029763182252343, 0.4610785065134777]
+768.1s 153 Epoch 1 - Score: 0.4632  Scores: [0.5015830200415488, 0.4477686986451035, 0.4265264654577466, 0.4721754664535233, 0.47029763182252343, 0.4610785065134777]
+768.1s 154 Epoch 1 - Save Best Score: 0.4632 Model
+768.1s 155 Epoch 1 - Save Best Score: 0.4632 Model
+768.1s 156 Epoch 1 - Save Best Score: 0.4632 Model
+772.1s 157 Epoch: [2][0/366] Elapsed 0m 2.664425849914551s (remain 16m 12.515435218811035s) Loss: 0.0839(0.0839) Grad: 174586.6250  LR: 0.00001706
+810.0s 158 Epoch: [2][20/366] Elapsed 0m 40.60841965675354s (remain 11m 7.138322932379538s) Loss: 0.0945(0.1014) Grad: 160675.6094  LR: 0.00001675
+848.9s 159 Epoch: [2][40/366] Elapsed 1m 19.41879177093506s (remain 10m 29.539203062290085s) Loss: 0.1474(0.1038) Grad: 318205.7812  LR: 0.00001643
+880.4s 160 Epoch: [2][60/366] Elapsed 1m 51.00615620613098s (remain 9m 15.030781030654907s) Loss: 0.0749(0.1013) Grad: 201989.4062  LR: 0.00001610
+915.6s 161 Epoch: [2][80/366] Elapsed 2m 26.185501098632812s (remain 8m 34.35639275444885s) Loss: 0.0736(0.0995) Grad: 157503.8906  LR: 0.00001575
+952.4s 162 Epoch: [2][100/366] Elapsed 3m 2.945971727371216s (remain 8m 0.006757502508662583s) Loss: 0.0973(0.1015) Grad: 231956.9688  LR: 0.00001540
+983.4s 163 Epoch: [2][120/366] Elapsed 3m 34.02241134643555s (remain 7m 13.35116347005544s) Loss: 0.1113(0.1012) Grad: 165827.9844  LR: 0.00001503
+1015.6s 164 Epoch: [2][140/366] Elapsed 4m 6.164772987365723s (remain 6m 32.81612710749857s) Loss: 0.0848(0.1004) Grad: 224390.3594  LR: 0.00001466
+1050.5s 165 Epoch: [2][160/366] Elapsed 4m 41.04683017730713s (remain 5m 57.85465954253391s) Loss: 0.0935(0.0999) Grad: 174526.6875  LR: 0.00001427
+1087.5s 166 Epoch: [2][180/366] Elapsed 5m 18.0228271484375s (remain 5m 25.050955925198537s) Loss: 0.0830(0.1000) Grad: 192606.2812  LR: 0.00001388
+1117.3s 167 Epoch: [2][200/366] Elapsed 5m 47.93601894378662s (remain 4m 45.61912002848146s) Loss: 0.1471(0.1002) Grad: 122605.4531  LR: 0.00001348
+1152.9s 168 Epoch: [2][220/366] Elapsed 6m 23.512881755828857s (remain 4m 11.626098889570926s) Loss: 0.0969(0.0995) Grad: 62735.6758  LR: 0.00001308
+1183.0s 169 Epoch: [2][240/366] Elapsed 6m 53.602590799331665s (remain 3m 34.52416535235045s) Loss: 0.0761(0.0989) Grad: 43457.1602  LR: 0.00001267
+1216.4s 170 Epoch: [2][260/366] Elapsed 7m 26.987223386764526s (remain 2m 59.8224461900777s) Loss: 0.0637(0.0991) Grad: 110642.3672  LR: 0.00001225
+1255.9s 171 Epoch: [2][280/366] Elapsed 8m 6.442174434661865s (remain 2m 27.144429989132618s) Loss: 0.1270(0.1005) Grad: 211375.7344  LR: 0.00001183
+1286.9s 172 Epoch: [2][300/366] Elapsed 8m 37.52586126327515s (remain 1m 51.75807635253443s) Loss: 0.0901(0.1005) Grad: 159967.6875  LR: 0.00001141
+1319.5s 173 Epoch: [2][320/366] Elapsed 9m 10.050930500030518s (remain 1m 17.10994352804164s) Loss: 0.1217(0.1009) Grad: 103638.7734  LR: 0.00001098
+1352.7s 174 Epoch: [2][340/366] Elapsed 9m 43.29721641540527s (remain 0m 42.76372554365139s) Loss: 0.1537(0.1004) Grad: 121999.6094  LR: 0.00001056
+1387.5s 175 Epoch: [2][360/366] Elapsed 10m 18.111026287078857s (remain 0m 8.5610945469125s) Loss: 0.1419(0.1011) Grad: 144855.3594  LR: 0.00001013
+1394.8s 176 Epoch: [2][365/366] Elapsed 10m 25.352815866470337s (remain 0m 0.0s) Loss: 0.1278(0.1013) Grad: 64297.5977  LR: 0.00001002
+1395.8s 177 EVAL: [0/62] Elapsed 0m 0.9781455993652344s (remain 0m 59.6668815612793s) Loss: 0.0734(0.0734)
+1419.0s 178 EVAL: [20/62] Elapsed 0m 24.21206045150757s (remain 0m 47.271165643419536s) Loss: 0.0776(0.1031)
+1444.9s 179 EVAL: [40/62] Elapsed 0m 50.124192237854004s (remain 0m 25.673366755974s) Loss: 0.0822(0.1041)
+1466.9s 180 EVAL: [60/62] Elapsed 1m 12.064484119415283s (remain 0m 1.1813849855641791s) Loss: 0.0877(0.1053)
+1466.9s 181 EVAL: [61/62] Elapsed 1m 12.101820468902588s (remain 0m 0.0s) Loss: 0.0882(0.1053)
+1466.9s 182 Epoch 2 - avg_train_loss: 0.1013  avg_val_loss: 0.1053  time: 698s
+1466.9s 183 Epoch 2 - avg_train_loss: 0.1013  avg_val_loss: 0.1053  time: 698s
+1466.9s 184 Epoch 2 - avg_train_loss: 0.1013  avg_val_loss: 0.1053  time: 698s
+1466.9s 185 Epoch 2 - Score: 0.4593  Scores: [0.4966094267656857, 0.4494348219107533, 0.4271463143882507, 0.47535888291517403, 0.46403381548138806, 0.44349813681926553]
+1466.9s 186 Epoch 2 - Score: 0.4593  Scores: [0.4966094267656857, 0.4494348219107533, 0.4271463143882507, 0.47535888291517403, 0.46403381548138806, 0.44349813681926553]
+1466.9s 187 Epoch 2 - Score: 0.4593  Scores: [0.4966094267656857, 0.4494348219107533, 0.4271463143882507, 0.47535888291517403, 0.46403381548138806, 0.44349813681926553]
+1466.9s 188 Epoch 2 - Save Best Score: 0.4593 Model
+1466.9s 189 Epoch 2 - Save Best Score: 0.4593 Model
+1466.9s 190 Epoch 2 - Save Best Score: 0.4593 Model
+1470.3s 191 Epoch: [3][0/366] Elapsed 0m 1.495420217514038s (remain 9m 5.828379392623901s) Loss: 0.0910(0.0910) Grad: 194422.8750  LR: 0.00001000
+1506.2s 192 Epoch: [3][20/366] Elapsed 0m 37.486539363861084s (remain 10m 15.850289549146396s) Loss: 0.0792(0.0957) Grad: 258219.8906  LR: 0.00000957
+1535.2s 193 Epoch: [3][40/366] Elapsed 1m 6.411545276641846s (remain 8m 46.432980851429306s) Loss: 0.0554(0.0949) Grad: 199283.5938  LR: 0.00000914
+1568.5s 194 Epoch: [3][60/366] Elapsed 1m 39.78405737876892s (remain 8m 18.920286893844604s) Loss: 0.1024(0.0933) Grad: 359412.4688  LR: 0.00000872
+1600.0s 195 Epoch: [3][80/366] Elapsed 2m 11.212316989898682s (remain 7m 41.67296718668058s) Loss: 0.0417(0.0935) Grad: 88601.3594  LR: 0.00000829
+1635.8s 196 Epoch: [3][100/366] Elapsed 2m 47.01329302787781s (remain 7m 18.20319457809535s) Loss: 0.1247(0.0938) Grad: 175180.6875  LR: 0.00000787
+1669.5s 197 Epoch: [3][120/366] Elapsed 3m 20.715062141418457s (remain 6m 46.40653078221101s) Loss: 0.0813(0.0930) Grad: 108498.3359  LR: 0.00000746
+1708.7s 198 Epoch: [3][140/366] Elapsed 3m 59.904133796691895s (remain 6m 22.825745420253043s) Loss: 0.1021(0.0930) Grad: 208025.0312  LR: 0.00000704
+1740.0s 199 Epoch: [3][160/366] Elapsed 4m 31.24592161178589s (remain 5m 45.375241803826725s) Loss: 0.1134(0.0930) Grad: 142659.2656  LR: 0.00000664
+1770.6s 200 Epoch: [3][180/366] Elapsed 5m 1.8125805854797363s (remain 5m 8.482471869136702s) Loss: 0.1435(0.0936) Grad: 341754.6562  LR: 0.00000624
+1806.1s 201 Epoch: [3][200/366] Elapsed 5m 37.33484482765198s (remain 4m 36.91666366449033s) Loss: 0.1441(0.0957) Grad: 245167.3594  LR: 0.00000584
+1840.8s 202 Epoch: [3][220/366] Elapsed 6m 12.042834520339966s (remain 4m 4.1005022871008805s) Loss: 0.0570(0.0941) Grad: 177199.1562  LR: 0.00000546
+1875.9s 203 Epoch: [3][240/366] Elapsed 6m 47.09563994407654s (remain 3m 31.149190842363396s) Loss: 0.0942(0.0945) Grad: 107882.7812  LR: 0.00000508
+1910.9s 204 Epoch: [3][260/366] Elapsed 7m 22.134645462036133s (remain 2m 57.870259668635185s) Loss: 0.0913(0.0942) Grad: 105184.3438  LR: 0.00000471
+1943.2s 205 Epoch: [3][280/366] Elapsed 7m 54.398887634277344s (remain 2m 23.501442878696025s) Loss: 0.0800(0.0940) Grad: 141427.9531  LR: 0.00000435
+1981.4s 206 Epoch: [3][300/366] Elapsed 8m 32.57745385169983s (remain 1m 50.689483389901966s) Loss: 0.0697(0.0936) Grad: 105448.7344  LR: 0.00000400
+2016.9s 207 Epoch: [3][320/366] Elapsed 9m 8.110097885131836s (remain 1m 16.837864189504444s) Loss: 0.1015(0.0934) Grad: 277975.6562  LR: 0.00000367
+2053.1s 208 Epoch: [3][340/366] Elapsed 9m 44.32613229751587s (remain 0m 42.83915925934866s) Loss: 0.1165(0.0935) Grad: 149435.9531  LR: 0.00000334
+2084.5s 209 Epoch: [3][360/366] Elapsed 10m 15.781993627548218s (remain 0m 8.528836476835863s) Loss: 0.1227(0.0935) Grad: 236443.5781  LR: 0.00000303
+2093.5s 210 Epoch: [3][365/366] Elapsed 10m 24.737138748168945s (remain 0m 0.0s) Loss: 0.0639(0.0933) Grad: 134446.7031  LR: 0.00000295
+2094.5s 211 EVAL: [0/62] Elapsed 0m 0.972862720489502s (remain 0m 59.34462594985962s) Loss: 0.0698(0.0698)
+2117.8s 212 EVAL: [20/62] Elapsed 0m 24.214619874954224s (remain 0m 47.276162613005866s) Loss: 0.0772(0.1007)
+2143.7s 213 EVAL: [40/62] Elapsed 0m 50.124430418014526s (remain 0m 25.673488750690368s) Loss: 0.0751(0.1014)
+2165.7s 214 EVAL: [60/62] Elapsed 1m 12.071736097335815s (remain 0m 1.1815038704481253s) Loss: 0.0879(0.1026)
+2165.7s 215 EVAL: [61/62] Elapsed 1m 12.109291553497314s (remain 0m 0.0s) Loss: 0.0778(0.1026)
+2165.7s 216 Epoch 3 - avg_train_loss: 0.0933  avg_val_loss: 0.1026  time: 697s
+2165.7s 217 Epoch 3 - avg_train_loss: 0.0933  avg_val_loss: 0.1026  time: 697s
+2165.7s 218 Epoch 3 - avg_train_loss: 0.0933  avg_val_loss: 0.1026  time: 697s
+2165.7s 219 Epoch 3 - Score: 0.4532  Scores: [0.49190635982959846, 0.44516621228482317, 0.41239307267047315, 0.4573642990074498, 0.4668848752503526, 0.44568230769310546]
+2165.7s 220 Epoch 3 - Score: 0.4532  Scores: [0.49190635982959846, 0.44516621228482317, 0.41239307267047315, 0.4573642990074498, 0.4668848752503526, 0.44568230769310546]
+2165.7s 221 Epoch 3 - Score: 0.4532  Scores: [0.49190635982959846, 0.44516621228482317, 0.41239307267047315, 0.4573642990074498, 0.4668848752503526, 0.44568230769310546]
+2165.7s 222 Epoch 3 - Save Best Score: 0.4532 Model
+2165.7s 223 Epoch 3 - Save Best Score: 0.4532 Model
+2165.7s 224 Epoch 3 - Save Best Score: 0.4532 Model
+2169.3s 225 Epoch: [4][0/366] Elapsed 0m 1.6757662296295166s (remain 10m 11.65467381477356s) Loss: 0.0829(0.0829) Grad: 138382.1250  LR: 0.00000294
+2202.6s 226 Epoch: [4][20/366] Elapsed 0m 34.9962842464447s (remain 9m 34.93895547730585s) Loss: 0.0913(0.0896) Grad: 119092.4766  LR: 0.00000264
+2241.2s 227 Epoch: [4][40/366] Elapsed 1m 13.542924404144287s (remain 9m 42.96220564260716s) Loss: 0.0937(0.0901) Grad: 162330.8125  LR: 0.00000236
+2271.2s 228 Epoch: [4][60/366] Elapsed 1m 43.58933711051941s (remain 8m 37.946685552597046s) Loss: 0.1125(0.0907) Grad: 254759.2188  LR: 0.00000209
+2305.0s 229 Epoch: [4][80/366] Elapsed 2m 17.333205223083496s (remain 8m 3.2094257849233827s) Loss: 0.0854(0.0894) Grad: 182564.9219  LR: 0.00000183
+2336.4s 230 Epoch: [4][100/366] Elapsed 2m 48.78574562072754s (remain 7m 22.853689004879243s) Loss: 0.0875(0.0911) Grad: 196729.3594  LR: 0.00000159
+2371.6s 231 Epoch: [4][120/366] Elapsed 3m 23.97240710258484s (remain 6m 53.001981323415635s) Loss: 0.1088(0.0926) Grad: 141436.0469  LR: 0.00000137
+2405.7s 232 Epoch: [4][140/366] Elapsed 3m 58.04781150817871s (remain 6m 19.86352900241286s) Loss: 0.0778(0.0929) Grad: 153202.4219  LR: 0.00000116
+2440.7s 233 Epoch: [4][160/366] Elapsed 4m 33.10639214515686s (remain 5m 47.74416391153511s) Loss: 0.0773(0.0918) Grad: 246660.2500  LR: 0.00000097
+2474.1s 234 Epoch: [4][180/366] Elapsed 5m 6.498799562454224s (remain 5m 13.272253696431108s) Loss: 0.0734(0.0905) Grad: 219775.8906  LR: 0.00000079
+2504.6s 235 Epoch: [4][200/366] Elapsed 5m 36.9735050201416s (remain 4m 36.62004143444449s) Loss: 0.1007(0.0905) Grad: 135721.9531  LR: 0.00000063
+2536.5s 236 Epoch: [4][220/366] Elapsed 6m 8.829119205474854s (remain 4m 1.9919560397911482s) Loss: 0.0806(0.0907) Grad: 132795.8438  LR: 0.00000049
+2570.5s 237 Epoch: [4][240/366] Elapsed 6m 42.90743923187256s (remain 3m 28.976887568398638s) Loss: 0.0720(0.0908) Grad: 139765.9531  LR: 0.00000037
+2605.3s 238 Epoch: [4][260/366] Elapsed 7m 17.670953512191772s (remain 2m 56.07452152789324s) Loss: 0.0978(0.0905) Grad: 162917.8750  LR: 0.00000026
+2639.4s 239 Epoch: [4][280/366] Elapsed 7m 51.753058671951294s (remain 2m 22.70110315699594s) Loss: 0.0739(0.0900) Grad: 172115.2344  LR: 0.00000017
+2675.8s 240 Epoch: [4][300/366] Elapsed 8m 28.166247844696045s (remain 1m 49.73689737510051s) Loss: 0.0628(0.0894) Grad: 94192.2812  LR: 0.00000010
+2709.2s 241 Epoch: [4][320/366] Elapsed 9m 1.5800116062164307s (remain 1m 15.922431533581744s) Loss: 0.0866(0.0894) Grad: 188434.0000  LR: 0.00000005
+2748.2s 242 Epoch: [4][340/366] Elapsed 9m 40.58007454872131s (remain 0m 42.56452159448099s) Loss: 0.0440(0.0890) Grad: 138694.9062  LR: 0.00000002
+2785.6s 243 Epoch: [4][360/366] Elapsed 10m 18.036879539489746s (remain 0m 8.56006758364947s) Loss: 0.0885(0.0889) Grad: 162196.7188  LR: 0.00000000
+2793.1s 244 Epoch: [4][365/366] Elapsed 10m 25.485005140304565s (remain 0m 0.0s) Loss: 0.0744(0.0888) Grad: 165205.4062  LR: 0.00000000
+2794.2s 245 EVAL: [0/62] Elapsed 0m 0.9932458400726318s (remain 1m 0.587996244430542s) Loss: 0.0624(0.0624)
+2817.4s 246 EVAL: [20/62] Elapsed 0m 24.228767156600952s (remain 0m 47.303783496220916s) Loss: 0.0738(0.0981)
+2843.3s 247 EVAL: [40/62] Elapsed 0m 50.137490034103394s (remain 0m 25.68017782234564s) Loss: 0.0822(0.0996)
+2865.2s 248 EVAL: [60/62] Elapsed 1m 12.072504043579102s (remain 0m 1.1815164597308012s) Loss: 0.0886(0.1009)
+2865.2s 249 EVAL: [61/62] Elapsed 1m 12.109944343566895s (remain 0m 0.0s) Loss: 0.0971(0.1009)
+2865.3s 250 Epoch 4 - avg_train_loss: 0.0888  avg_val_loss: 0.1009  time: 698s
+2865.3s 251 Epoch 4 - avg_train_loss: 0.0888  avg_val_loss: 0.1009  time: 698s
+2865.3s 252 Epoch 4 - avg_train_loss: 0.0888  avg_val_loss: 0.1009  time: 698s
+2865.3s 253 Epoch 4 - Score: 0.4493  Scores: [0.4851660814520791, 0.44397485919324353, 0.4081052129517793, 0.4530920304724476, 0.4642721936570555, 0.44128130506408725]
+2865.3s 254 Epoch 4 - Score: 0.4493  Scores: [0.4851660814520791, 0.44397485919324353, 0.4081052129517793, 0.4530920304724476, 0.4642721936570555, 0.44128130506408725]
+2865.3s 255 Epoch 4 - Score: 0.4493  Scores: [0.4851660814520791, 0.44397485919324353, 0.4081052129517793, 0.4530920304724476, 0.4642721936570555, 0.44128130506408725]
+2865.3s 256 Epoch 4 - Save Best Score: 0.4493 Model
+2865.3s 257 Epoch 4 - Save Best Score: 0.4493 Model
+2865.3s 258 Epoch 4 - Save Best Score: 0.4493 Model
+2867.8s 259 -------------- Fold: 0 Result --------------
+2867.8s 260 -------------- Fold: 0 Result --------------
+2867.8s 261 -------------- Fold: 0 Result --------------
+2867.8s 262 Score: 0.4493  Scores: [0.4851660814520791, 0.44397485919324353, 0.4081052129517793, 0.4530920304724476, 0.4642721936570555, 0.44128130506408725]
+2867.8s 263 Score: 0.4493  Scores: [0.4851660814520791, 0.44397485919324353, 0.4081052129517793, 0.4530920304724476, 0.4642721936570555, 0.44128130506408725]
+2867.8s 264 Score: 0.4493  Scores: [0.4851660814520791, 0.44397485919324353, 0.4081052129517793, 0.4530920304724476, 0.4642721936570555, 0.44128130506408725]
+2867.8s 265 -------------- Fold: 1 Training --------------
+2867.8s 266 -------------- Fold: 1 Training --------------
+2867.8s 267 -------------- Fold: 1 Training --------------
+2867.9s 268 DebertaV2Config {
+2867.9s 269 "_name_or_path": "microsoft/deberta-v3-base",
+2867.9s 270 "attention_dropout": 0.0,
+2867.9s 271 "attention_probs_dropout_prob": 0.0,
+2867.9s 272 "hidden_act": "gelu",
+2867.9s 273 "hidden_dropout": 0.0,
+2867.9s 274 "hidden_dropout_prob": 0.0,
+2867.9s 275 "hidden_size": 768,
+2867.9s 276 "initializer_range": 0.02,
+2867.9s 277 "intermediate_size": 3072,
+2867.9s 278 "layer_norm_eps": 1e-07,
+2867.9s 279 "max_position_embeddings": 512,
+2867.9s 280 "max_relative_positions": -1,
+2867.9s 281 "model_type": "deberta-v2",
+2867.9s 282 "norm_rel_ebd": "layer_norm",
+2867.9s 283 "num_attention_heads": 12,
+2867.9s 284 "num_hidden_layers": 12,
+2867.9s 285 "output_hidden_states": true,
+2867.9s 286 "pad_token_id": 0,
+2867.9s 287 "pooler_dropout": 0,
+2867.9s 288 "pooler_hidden_act": "gelu",
+2867.9s 289 "pooler_hidden_size": 768,
+2867.9s 290 "pos_att_type": [
+2867.9s 291 "p2c",
+2867.9s 292 "c2p"
+2867.9s 293 ],
+2867.9s 294 "position_biased_input": false,
+2867.9s 295 "position_buckets": 256,
+2867.9s 296 "relative_attention": true,
+2867.9s 297 "share_att_key": true,
+2867.9s 298 "transformers_version": "4.42.3",
+2867.9s 299 "type_vocab_size": 0,
+2867.9s 300 "vocab_size": 128100
+2867.9s 301 }
+2867.9s 302 
+2867.9s 303 DebertaV2Config {
+2867.9s 304 "_name_or_path": "microsoft/deberta-v3-base",
+2867.9s 305 "attention_dropout": 0.0,
+2867.9s 306 "attention_probs_dropout_prob": 0.0,
+2867.9s 307 "hidden_act": "gelu",
+2867.9s 308 "hidden_dropout": 0.0,
+2867.9s 309 "hidden_dropout_prob": 0.0,
+2867.9s 310 "hidden_size": 768,
+2867.9s 311 "initializer_range": 0.02,
+2867.9s 312 "intermediate_size": 3072,
+2867.9s 313 "layer_norm_eps": 1e-07,
+2867.9s 314 "max_position_embeddings": 512,
+2867.9s 315 "max_relative_positions": -1,
+2867.9s 316 "model_type": "deberta-v2",
+2867.9s 317 "norm_rel_ebd": "layer_norm",
+2867.9s 318 "num_attention_heads": 12,
+2867.9s 319 "num_hidden_layers": 12,
+2867.9s 320 "output_hidden_states": true,
+2867.9s 321 "pad_token_id": 0,
+2867.9s 322 "pooler_dropout": 0,
+2867.9s 323 "pooler_hidden_act": "gelu",
+2867.9s 324 "pooler_hidden_size": 768,
+2867.9s 325 "pos_att_type": [
+2867.9s 326 "p2c",
+2867.9s 327 "c2p"
+2867.9s 328 ],
+2867.9s 329 "position_biased_input": false,
+2867.9s 330 "position_buckets": 256,
+2867.9s 331 "relative_attention": true,
+2867.9s 332 "share_att_key": true,
+2867.9s 333 "transformers_version": "4.42.3",
+2867.9s 334 "type_vocab_size": 0,
+2867.9s 335 "vocab_size": 128100
+2867.9s 336 }
+2867.9s 337 
+2867.9s 338 DebertaV2Config {
+2867.9s 339 "_name_or_path": "microsoft/deberta-v3-base",
+2867.9s 340 "attention_dropout": 0.0,
+2867.9s 341 "attention_probs_dropout_prob": 0.0,
+2867.9s 342 "hidden_act": "gelu",
+2867.9s 343 "hidden_dropout": 0.0,
+2867.9s 344 "hidden_dropout_prob": 0.0,
+2867.9s 345 "hidden_size": 768,
+2867.9s 346 "initializer_range": 0.02,
+2867.9s 347 "intermediate_size": 3072,
+2867.9s 348 "layer_norm_eps": 1e-07,
+2867.9s 349 "max_position_embeddings": 512,
+2867.9s 350 "max_relative_positions": -1,
+2867.9s 351 "model_type": "deberta-v2",
+2867.9s 352 "norm_rel_ebd": "layer_norm",
+2867.9s 353 "num_attention_heads": 12,
+2867.9s 354 "num_hidden_layers": 12,
+2867.9s 355 "output_hidden_states": true,
+2867.9s 356 "pad_token_id": 0,
+2867.9s 357 "pooler_dropout": 0,
+2867.9s 358 "pooler_hidden_act": "gelu",
+2867.9s 359 "pooler_hidden_size": 768,
+2867.9s 360 "pos_att_type": [
+2867.9s 361 "p2c",
+2867.9s 362 "c2p"
+2867.9s 363 ],
+2867.9s 364 "position_biased_input": false,
+2867.9s 365 "position_buckets": 256,
+2867.9s 366 "relative_attention": true,
+2867.9s 367 "share_att_key": true,
+2867.9s 368 "transformers_version": "4.42.3",
+2867.9s 369 "type_vocab_size": 0,
+2867.9s 370 "vocab_size": 128100
+2867.9s 371 }
+2867.9s 372 
+2872.0s 373 Epoch: [1][0/366] Elapsed 0m 3.3916027545928955s (remain 20m 37.93500542640686s) Loss: 2.4183(2.4183) Grad: inf  LR: 0.00002000
+2903.0s 374 Epoch: [1][20/366] Elapsed 0m 34.466944456100464s (remain 9m 26.242658921650445s) Loss: 0.1548(1.4465) Grad: 101827.7734  LR: 0.00001999
+2942.7s 375 Epoch: [1][40/366] Elapsed 1m 14.11003828048706s (remain 9m 47.457620516055954s) Loss: 0.1182(0.8350) Grad: 87727.0000  LR: 0.00001996
+2978.9s 376 Epoch: [1][60/366] Elapsed 1m 50.262895584106445s (remain 9m 11.314477920532227s) Loss: 0.2037(0.6223) Grad: 123752.5078  LR: 0.00001991
+3016.4s 377 Epoch: [1][80/366] Elapsed 2m 27.803752422332764s (remain 8m 40.05024000450419s) Loss: 0.1335(0.5017) Grad: 92674.4688  LR: 0.00001985
+3049.4s 378 Epoch: [1][100/366] Elapsed 3m 0.7803471088409424s (remain 7m 54.32467310735501s) Loss: 0.1742(0.4259) Grad: 46407.1953  LR: 0.00001977
+3084.0s 379 Epoch: [1][120/366] Elapsed 3m 35.38455653190613s (remain 7m 16.109226035677693s) Loss: 0.1281(0.3810) Grad: 105320.8984  LR: 0.00001967
+3116.8s 380 Epoch: [1][140/366] Elapsed 4m 8.228975296020508s (remain 6m 36.1100669617349s) Loss: 0.2106(0.3469) Grad: 63691.0898  LR: 0.00001955
+3150.6s 381 Epoch: [1][160/366] Elapsed 4m 42.01924729347229s (remain 5m 59.092830404731785s) Loss: 0.0781(0.3194) Grad: 26222.4121  LR: 0.00001941
+3185.0s 382 Epoch: [1][180/366] Elapsed 5m 16.4619243144989s (remain 5m 23.455558001007148s) Loss: 0.1169(0.2964) Grad: 42378.8281  LR: 0.00001926
+3216.3s 383 Epoch: [1][200/366] Elapsed 5m 47.6775221824646s (remain 4m 45.40692119456048s) Loss: 0.0684(0.2795) Grad: 34315.2930  LR: 0.00001909
+3246.1s 384 Epoch: [1][220/366] Elapsed 6m 17.521307706832886s (remain 4m 7.69497564475455s) Loss: 0.1134(0.2661) Grad: 76301.3281  LR: 0.00001890
+3277.5s 385 Epoch: [1][240/366] Elapsed 6m 48.92638301849365s (remain 3m 32.098746378886744s) Loss: 0.0762(0.2540) Grad: 49789.5820  LR: 0.00001870
+3312.3s 386 Epoch: [1][260/366] Elapsed 7m 23.782992601394653s (remain 2m 58.53338782814728s) Loss: 0.1476(0.2459) Grad: 42809.6992  LR: 0.00001848
+3347.8s 387 Epoch: [1][280/366] Elapsed 7m 59.26848268508911s (remain 2m 24.974452057767166s) Loss: 0.0660(0.2362) Grad: 36221.6367  LR: 0.00001824
+3386.4s 388 Epoch: [1][300/366] Elapsed 8m 37.84679436683655s (remain 1m 51.827380843336755s) Loss: 0.0981(0.2283) Grad: 69324.2031  LR: 0.00001799
+3421.9s 389 Epoch: [1][320/366] Elapsed 9m 13.363763570785522s (remain 1m 17.574359379082125s) Loss: 0.1403(0.2225) Grad: 80046.2344  LR: 0.00001773
+3451.3s 390 Epoch: [1][340/366] Elapsed 9m 42.75627017021179s (remain 0m 42.7240667280214s) Loss: 0.1410(0.2155) Grad: 39280.9844  LR: 0.00001745
+3483.6s 391 Epoch: [1][360/366] Elapsed 10m 15.044532299041748s (remain 0m 8.51862233101167s) Loss: 0.2185(0.2103) Grad: 37385.8633  LR: 0.00001716
+3494.6s 392 Epoch: [1][365/366] Elapsed 10m 26.002647638320923s (remain 0m 0.0s) Loss: 0.1159(0.2090) Grad: 55333.1172  LR: 0.00001708
+3495.5s 393 EVAL: [0/62] Elapsed 0m 0.8908164501190186s (remain 0m 54.33980345726013s) Loss: 0.1416(0.1416)
+3519.3s 394 EVAL: [20/62] Elapsed 0m 24.662256717681885s (remain 0m 48.1501202583313s) Loss: 0.1002(0.1361)
+3542.2s 395 EVAL: [40/62] Elapsed 0m 47.58118271827698s (remain 0m 24.370849684971134s) Loss: 0.1337(0.1360)
+3568.2s 396 EVAL: [60/62] Elapsed 1m 13.510515451431274s (remain 0m 1.2050904172365762s) Loss: 0.1519(0.1391)
+3568.2s 397 EVAL: [61/62] Elapsed 1m 13.56315016746521s (remain 0m 0.0s) Loss: 0.0692(0.1390)
+3568.2s 398 Epoch 1 - avg_train_loss: 0.2090  avg_val_loss: 0.1390  time: 700s
+3568.2s 399 Epoch 1 - avg_train_loss: 0.2090  avg_val_loss: 0.1390  time: 700s
+3568.2s 400 Epoch 1 - avg_train_loss: 0.2090  avg_val_loss: 0.1390  time: 700s
+3568.2s 401 Epoch 1 - Score: 0.5295  Scores: [0.5583261064320701, 0.5422817020010424, 0.43896832935470353, 0.5377036715259444, 0.5586080943042963, 0.5411846666574798]
+3568.2s 402 Epoch 1 - Score: 0.5295  Scores: [0.5583261064320701, 0.5422817020010424, 0.43896832935470353, 0.5377036715259444, 0.5586080943042963, 0.5411846666574798]
+3568.2s 403 Epoch 1 - Score: 0.5295  Scores: [0.5583261064320701, 0.5422817020010424, 0.43896832935470353, 0.5377036715259444, 0.5586080943042963, 0.5411846666574798]
+3568.2s 404 Epoch 1 - Save Best Score: 0.5295 Model
+3568.2s 405 Epoch 1 - Save Best Score: 0.5295 Model
+3568.2s 406 Epoch 1 - Save Best Score: 0.5295 Model
+3571.1s 407 Epoch: [2][0/366] Elapsed 0m 1.5801448822021484s (remain 9m 36.75288200378418s) Loss: 0.0811(0.0811) Grad: 226317.1406  LR: 0.00001707
+3606.0s 408 Epoch: [2][20/366] Elapsed 0m 36.49992656707764s (remain 9m 59.64165074484686s) Loss: 0.1005(0.1124) Grad: 185797.0625  LR: 0.00001676
+3637.3s 409 Epoch: [2][40/366] Elapsed 1m 7.8363401889801025s (remain 8m 57.7270868638667s) Loss: 0.1288(0.1062) Grad: 56447.0117  LR: 0.00001644
+3676.7s 410 Epoch: [2][60/366] Elapsed 1m 47.205026388168335s (remain 8m 56.025131940841675s) Loss: 0.1268(0.1048) Grad: 96420.0859  LR: 0.00001610
+3715.9s 411 Epoch: [2][80/366] Elapsed 2m 26.363231420516968s (remain 8m 34.98174018330042s) Loss: 0.0994(0.1064) Grad: 87943.0469  LR: 0.00001576
+3748.5s 412 Epoch: [2][100/366] Elapsed 2m 59.037400245666504s (remain 7m 49.75159470397648s) Loss: 0.0785(0.1043) Grad: 123044.3906  LR: 0.00001540
+3781.2s 413 Epoch: [2][120/366] Elapsed 3m 31.748251914978027s (remain 7m 8.74646048900513s) Loss: 0.1135(0.1049) Grad: 93216.8594  LR: 0.00001504
+3809.2s 414 Epoch: [2][140/366] Elapsed 3m 59.67320680618286s (remain 6m 22.457244903483343s) Loss: 0.1195(0.1052) Grad: 114514.2266  LR: 0.00001466
+3847.8s 415 Epoch: [2][160/366] Elapsed 4m 38.33165645599365s (remain 5m 54.39745076694851s) Loss: 0.0706(0.1069) Grad: 115955.1797  LR: 0.00001428
+3881.1s 416 Epoch: [2][180/366] Elapsed 5m 11.564953088760376s (remain 5m 18.45036641668878s) Loss: 0.1355(0.1072) Grad: 84029.5391  LR: 0.00001389
+3918.2s 417 Epoch: [2][200/366] Elapsed 5m 48.69803714752197s (remain 4m 46.244657359906s) Loss: 0.1528(0.1071) Grad: 241350.9531  LR: 0.00001349
+3951.6s 418 Epoch: [2][220/366] Elapsed 6m 22.078349590301514s (remain 4m 10.68489000268653s) Loss: 0.1343(0.1059) Grad: 99142.1016  LR: 0.00001309
+3988.0s 419 Epoch: [2][240/366] Elapsed 6m 58.51600742340088s (remain 3m 37.072617958195565s) Loss: 0.0798(0.1055) Grad: 84047.8906  LR: 0.00001268
+4023.9s 420 Epoch: [2][260/366] Elapsed 7m 34.38839769363403s (remain 3m 2.799930106634406s) Loss: 0.0900(0.1053) Grad: 69716.9922  LR: 0.00001226
+4059.4s 421 Epoch: [2][280/366] Elapsed 8m 9.872403860092163s (remain 2m 28.1820438722699s) Loss: 0.0946(0.1050) Grad: 107081.9766  LR: 0.00001184
+4092.7s 422 Epoch: [2][300/366] Elapsed 8m 43.17620134353638s (remain 1m 52.97824945956768s) Loss: 0.1065(0.1043) Grad: 91005.6953  LR: 0.00001142
+4126.2s 423 Epoch: [2][320/366] Elapsed 9m 16.688568592071533s (remain 1m 18.040453540944668s) Loss: 0.1180(0.1038) Grad: 94613.2500  LR: 0.00001099
+4162.3s 424 Epoch: [2][340/366] Elapsed 9m 52.84433841705322s (remain 0m 43.46366117427078s) Loss: 0.0924(0.1037) Grad: 94063.8438  LR: 0.00001057
+4194.6s 425 Epoch: [2][360/366] Elapsed 10m 25.06373167037964s (remain 0m 8.657392405406881s) Loss: 0.0983(0.1028) Grad: 122830.3750  LR: 0.00001014
+4202.5s 426 Epoch: [2][365/366] Elapsed 10m 33.04388737678528s (remain 0m 0.0s) Loss: 0.0971(0.1027) Grad: 104763.3359  LR: 0.00001003
+4203.4s 427 EVAL: [0/62] Elapsed 0m 0.8914170265197754s (remain 0m 54.3764386177063s) Loss: 0.1126(0.1126)
+4226.6s 428 EVAL: [20/62] Elapsed 0m 23.990843772888184s (remain 0m 46.83926641373408s) Loss: 0.0926(0.1166)
+4249.5s 429 EVAL: [40/62] Elapsed 0m 46.91524076461792s (remain 0m 24.029757464804305s) Loss: 0.1071(0.1150)
+4275.5s 430 EVAL: [60/62] Elapsed 1m 12.845849752426147s (remain 0m 1.194194258236493s) Loss: 0.1008(0.1160)
+4275.5s 431 EVAL: [61/62] Elapsed 1m 12.898148775100708s (remain 0m 0.0s) Loss: 0.0581(0.1159)
+4275.5s 432 Epoch 2 - avg_train_loss: 0.1027  avg_val_loss: 0.1159  time: 706s
+4275.5s 433 Epoch 2 - avg_train_loss: 0.1027  avg_val_loss: 0.1159  time: 706s
+4275.5s 434 Epoch 2 - avg_train_loss: 0.1027  avg_val_loss: 0.1159  time: 706s
+4275.5s 435 Epoch 2 - Score: 0.4825  Scores: [0.542691776926558, 0.48342807304398355, 0.43829355069958637, 0.4829504818783314, 0.48156398861721894, 0.4659288976883387]
+4275.5s 436 Epoch 2 - Score: 0.4825  Scores: [0.542691776926558, 0.48342807304398355, 0.43829355069958637, 0.4829504818783314, 0.48156398861721894, 0.4659288976883387]
+4275.5s 437 Epoch 2 - Score: 0.4825  Scores: [0.542691776926558, 0.48342807304398355, 0.43829355069958637, 0.4829504818783314, 0.48156398861721894, 0.4659288976883387]
+4275.5s 438 Epoch 2 - Save Best Score: 0.4825 Model
+4275.5s 439 Epoch 2 - Save Best Score: 0.4825 Model
+4275.5s 440 Epoch 2 - Save Best Score: 0.4825 Model
+4278.6s 441 Epoch: [3][0/366] Elapsed 0m 1.3604836463928223s (remain 8m 16.576530933380127s) Loss: 0.0597(0.0597) Grad: 211481.9062  LR: 0.00001001
+4309.7s 442 Epoch: [3][20/366] Elapsed 0m 32.462504625320435s (remain 8m 53.31257598740717s) Loss: 0.0787(0.0907) Grad: 202689.3594  LR: 0.00000958
+4344.7s 443 Epoch: [3][40/366] Elapsed 1m 7.379708766937256s (remain 8m 54.107447542795285s) Loss: 0.0715(0.0934) Grad: 201103.5156  LR: 0.00000916
+4382.7s 444 Epoch: [3][60/366] Elapsed 1m 45.39909553527832s (remain 8m 46.9954776763916s) Loss: 0.0708(0.0917) Grad: 189859.8125  LR: 0.00000873
+4419.7s 445 Epoch: [3][80/366] Elapsed 2m 22.41745090484619s (remain 8m 21.098438368903317s) Loss: 0.0926(0.0922) Grad: 116695.2109  LR: 0.00000831
+4450.1s 446 Epoch: [3][100/366] Elapsed 2m 52.79194378852844s (remain 7m 33.36500102930734s) Loss: 0.1050(0.0916) Grad: 92236.8516  LR: 0.00000789
+4482.2s 447 Epoch: [3][120/366] Elapsed 3m 24.96504831314087s (remain 6m 55.01187468363241s) Loss: 0.0992(0.0907) Grad: 93867.9141  LR: 0.00000747
+4514.6s 448 Epoch: [3][140/366] Elapsed 3m 57.31907033920288s (remain 6m 18.700644158302453s) Loss: 0.0663(0.0889) Grad: 62648.9727  LR: 0.00000706
+4549.5s 449 Epoch: [3][160/366] Elapsed 4m 32.234044551849365s (remain 5m 46.63341076477718s) Loss: 0.1379(0.0912) Grad: 88850.3984  LR: 0.00000665
+4578.9s 450 Epoch: [3][180/366] Elapsed 5m 1.669515609741211s (remain 5m 8.336245236475861s) Loss: 0.1284(0.0913) Grad: 126022.4844  LR: 0.00000625
+4612.9s 451 Epoch: [3][200/366] Elapsed 5m 35.67049217224121s (remain 4m 35.55040402198904s) Loss: 0.0860(0.0921) Grad: 79665.7266  LR: 0.00000586
+4651.9s 452 Epoch: [3][220/366] Elapsed 6m 14.649115800857544s (remain 4m 5.81050584219156s) Loss: 0.0977(0.0927) Grad: 220658.5781  LR: 0.00000547
+4688.2s 453 Epoch: [3][240/366] Elapsed 6m 50.90154051780701s (remain 3m 33.123205662762985s) Loss: 0.0867(0.0934) Grad: 114623.9609  LR: 0.00000509
+4717.1s 454 Epoch: [3][260/366] Elapsed 7m 19.90270233154297s (remain 2m 56.97235151268967s) Loss: 0.0704(0.0932) Grad: 113961.8906  LR: 0.00000472
+4761.0s 455 Epoch: [3][280/366] Elapsed 8m 3.6901919841766357s (remain 2m 26.311979781690525s) Loss: 0.0651(0.0928) Grad: 71993.4297  LR: 0.00000437
+4797.0s 456 Epoch: [3][300/366] Elapsed 8m 39.76239204406738s (remain 1m 52.24104811582845s) Loss: 0.1073(0.0932) Grad: 100873.1562  LR: 0.00000402
+4828.0s 457 Epoch: [3][320/366] Elapsed 9m 10.68063735961914s (remain 1m 17.198220190600864s) Loss: 0.0620(0.0933) Grad: 100984.4375  LR: 0.00000368
+4865.4s 458 Epoch: [3][340/366] Elapsed 9m 48.16340947151184s (remain 0m 43.12048456536013s) Loss: 0.0932(0.0937) Grad: 101383.5938  LR: 0.00000335
+4896.8s 459 Epoch: [3][360/366] Elapsed 10m 19.554845094680786s (remain 0m 8.581092037322492s) Loss: 0.1099(0.0936) Grad: 121540.3125  LR: 0.00000304
+4904.9s 460 Epoch: [3][365/366] Elapsed 10m 27.654494524002075s (remain 0m 0.0s) Loss: 0.1001(0.0937) Grad: 74159.6328  LR: 0.00000296
+4905.8s 461 EVAL: [0/62] Elapsed 0m 0.8888931274414062s (remain 0m 54.22248077392578s) Loss: 0.0987(0.0987)
+4929.0s 462 EVAL: [20/62] Elapsed 0m 23.98310685157776s (remain 0m 46.82416099593753s) Loss: 0.1087(0.1102)
+4951.8s 463 EVAL: [40/62] Elapsed 0m 46.90732431411743s (remain 0m 24.025702697474784s) Loss: 0.0964(0.1061)
+4977.8s 464 EVAL: [60/62] Elapsed 1m 12.830388307571411s (remain 0m 1.1939407919274032s) Loss: 0.0895(0.1045)
+4977.8s 465 EVAL: [61/62] Elapsed 1m 12.882548093795776s (remain 0m 0.0s) Loss: 0.0530(0.1045)
+4977.9s 466 Epoch 3 - avg_train_loss: 0.0937  avg_val_loss: 0.1045  time: 701s
+4977.9s 467 Epoch 3 - avg_train_loss: 0.0937  avg_val_loss: 0.1045  time: 701s
+4977.9s 468 Epoch 3 - avg_train_loss: 0.0937  avg_val_loss: 0.1045  time: 701s
+4977.9s 469 Epoch 3 - Score: 0.4576  Scores: [0.4953011677916286, 0.44241082300818085, 0.416870941484213, 0.4495952077400283, 0.48662717321590215, 0.45450356903083833]
+4977.9s 470 Epoch 3 - Score: 0.4576  Scores: [0.4953011677916286, 0.44241082300818085, 0.416870941484213, 0.4495952077400283, 0.48662717321590215, 0.45450356903083833]
+4977.9s 471 Epoch 3 - Score: 0.4576  Scores: [0.4953011677916286, 0.44241082300818085, 0.416870941484213, 0.4495952077400283, 0.48662717321590215, 0.45450356903083833]
+4977.9s 472 Epoch 3 - Save Best Score: 0.4576 Model
+4977.9s 473 Epoch 3 - Save Best Score: 0.4576 Model
+4977.9s 474 Epoch 3 - Save Best Score: 0.4576 Model
+4981.8s 475 Epoch: [4][0/366] Elapsed 0m 2.2072391510009766s (remain 13m 25.642290115356445s) Loss: 0.0897(0.0897) Grad: 132112.0469  LR: 0.00000295
+5016.0s 476 Epoch: [4][20/366] Elapsed 0m 36.41434288024902s (remain 9m 58.23563303266246s) Loss: 0.1014(0.0903) Grad: 121573.8438  LR: 0.00000265
+5055.6s 477 Epoch: [4][40/366] Elapsed 1m 16.005656719207764s (remain 10m 2.4838642376224698s) Loss: 0.0604(0.0910) Grad: 85669.5312  LR: 0.00000237
+5089.3s 478 Epoch: [4][60/366] Elapsed 1m 49.72717261314392s (remain 9m 8.635863065719604s) Loss: 0.0557(0.0915) Grad: 91232.2188  LR: 0.00000210
+5123.5s 479 Epoch: [4][80/366] Elapsed 2m 23.905024766921997s (remain 8m 26.332494550281126s) Loss: 0.0860(0.0905) Grad: 65661.3516  LR: 0.00000184
+5152.7s 480 Epoch: [4][100/366] Elapsed 2m 53.148027658462524s (remain 7m 34.29928049002547s) Loss: 0.0926(0.0909) Grad: 106396.7734  LR: 0.00000160
+5191.4s 481 Epoch: [4][120/366] Elapsed 3m 31.874261140823364s (remain 7m 9.00160313637798s) Loss: 0.0630(0.0912) Grad: 88702.8281  LR: 0.00000138
+5221.7s 482 Epoch: [4][140/366] Elapsed 4m 2.1627347469329834s (remain 6m 26.429895872765428s) Loss: 0.1527(0.0911) Grad: 178460.3594  LR: 0.00000117
+5256.9s 483 Epoch: [4][160/366] Elapsed 4m 37.38074326515198s (remain 5m 53.18666067923084s) Loss: 0.0861(0.0909) Grad: 62741.3398  LR: 0.00000098
+5293.5s 484 Epoch: [4][180/366] Elapsed 5m 13.928366661071777s (remain 5m 20.866010123194883s) Loss: 0.0951(0.0908) Grad: 63048.7148  LR: 0.00000080
+5327.0s 485 Epoch: [4][200/366] Elapsed 5m 47.42747759819031s (remain 4m 45.201660714932245s) Loss: 0.1293(0.0905) Grad: 100209.6797  LR: 0.00000064
+5366.3s 486 Epoch: [4][220/366] Elapsed 6m 26.740845918655396s (remain 4m 13.743993928529562s) Loss: 0.0484(0.0900) Grad: 59627.5977  LR: 0.00000050
+5400.7s 487 Epoch: [4][240/366] Elapsed 7m 1.1041815280914307s (remain 3m 38.415031912910536s) Loss: 0.0961(0.0899) Grad: 63280.6914  LR: 0.00000037
+5433.8s 488 Epoch: [4][260/366] Elapsed 7m 34.23326134681702s (remain 3m 2.737518932627495s) Loss: 0.0587(0.0897) Grad: 50949.2656  LR: 0.00000027
+5469.4s 489 Epoch: [4][280/366] Elapsed 8m 9.891716003417969s (remain 2m 28.187885623809734s) Loss: 0.0842(0.0892) Grad: 137095.5938  LR: 0.00000018
+5504.8s 490 Epoch: [4][300/366] Elapsed 8m 45.256247758865356s (remain 1m 53.42742891802743s) Loss: 0.0814(0.0889) Grad: 81428.3438  LR: 0.00000011
+5533.2s 491 Epoch: [4][320/366] Elapsed 9m 13.680683374404907s (remain 1m 17.61878738893529s) Loss: 0.0819(0.0891) Grad: 53240.7422  LR: 0.00000005
+5566.3s 492 Epoch: [4][340/366] Elapsed 9m 46.733919858932495s (remain 0m 43.015683274115304s) Loss: 0.0874(0.0884) Grad: 88283.6406  LR: 0.00000002
+5598.2s 493 Epoch: [4][360/366] Elapsed 10m 18.61910390853882s (remain 0m 8.568131633082317s) Loss: 0.0944(0.0884) Grad: 99262.5234  LR: 0.00000000
+5606.6s 494 Epoch: [4][365/366] Elapsed 10m 27.042606830596924s (remain 0m 0.0s) Loss: 0.1370(0.0884) Grad: 152753.2188  LR: 0.00000000
+5607.5s 495 EVAL: [0/62] Elapsed 0m 0.874096155166626s (remain 0m 53.319865465164185s) Loss: 0.1052(0.1052)
+5630.6s 496 EVAL: [20/62] Elapsed 0m 23.97243094444275s (remain 0m 46.80331755819775s) Loss: 0.1002(0.1086)
+5653.5s 497 EVAL: [40/62] Elapsed 0m 46.886481523513794s (remain 0m 24.015027121799747s) Loss: 0.1004(0.1051)
+5679.5s 498 EVAL: [60/62] Elapsed 1m 12.8211190700531s (remain 0m 1.1937888372139867s) Loss: 0.0931(0.1045)
+5679.5s 499 EVAL: [61/62] Elapsed 1m 12.873481512069702s (remain 0m 0.0s) Loss: 0.0477(0.1045)
+5679.5s 500 Epoch 4 - avg_train_loss: 0.0884  avg_val_loss: 0.1045  time: 700s
+5679.5s 501 Epoch 4 - avg_train_loss: 0.0884  avg_val_loss: 0.1045  time: 700s
+5679.5s 502 Epoch 4 - avg_train_loss: 0.0884  avg_val_loss: 0.1045  time: 700s
+5679.5s 503 Epoch 4 - Score: 0.4576  Scores: [0.4964444936997609, 0.44460336904601083, 0.41758064450149807, 0.45162540971311693, 0.4810322543926443, 0.4544279155504325]
+5679.5s 504 Epoch 4 - Score: 0.4576  Scores: [0.4964444936997609, 0.44460336904601083, 0.41758064450149807, 0.45162540971311693, 0.4810322543926443, 0.4544279155504325]
+5679.5s 505 Epoch 4 - Score: 0.4576  Scores: [0.4964444936997609, 0.44460336904601083, 0.41758064450149807, 0.45162540971311693, 0.4810322543926443, 0.4544279155504325]
+5680.2s 506 -------------- Fold: 1 Result --------------
+5680.2s 507 -------------- Fold: 1 Result --------------
+5680.2s 508 -------------- Fold: 1 Result --------------
+5680.2s 509 Score: 0.4576  Scores: [0.4953011677916286, 0.44241082300818085, 0.416870941484213, 0.4495952077400283, 0.48662717321590215, 0.45450356903083833]
+5680.2s 510 Score: 0.4576  Scores: [0.4953011677916286, 0.44241082300818085, 0.416870941484213, 0.4495952077400283, 0.48662717321590215, 0.45450356903083833]
+5680.2s 511 Score: 0.4576  Scores: [0.4953011677916286, 0.44241082300818085, 0.416870941484213, 0.4495952077400283, 0.48662717321590215, 0.45450356903083833]
+5680.2s 512 -------------- Fold: 2 Training --------------
+5680.2s 513 -------------- Fold: 2 Training --------------
+5680.2s 514 -------------- Fold: 2 Training --------------
+5680.4s 515 DebertaV2Config {
+5680.4s 516 "_name_or_path": "microsoft/deberta-v3-base",
+5680.4s 517 "attention_dropout": 0.0,
+5680.4s 518 "attention_probs_dropout_prob": 0.0,
+5680.4s 519 "hidden_act": "gelu",
+5680.4s 520 "hidden_dropout": 0.0,
+5680.4s 521 "hidden_dropout_prob": 0.0,
+5680.4s 522 "hidden_size": 768,
+5680.4s 523 "initializer_range": 0.02,
+5680.4s 524 "intermediate_size": 3072,
+5680.4s 525 "layer_norm_eps": 1e-07,
+5680.4s 526 "max_position_embeddings": 512,
+5680.4s 527 "max_relative_positions": -1,
+5680.4s 528 "model_type": "deberta-v2",
+5680.4s 529 "norm_rel_ebd": "layer_norm",
+5680.4s 530 "num_attention_heads": 12,
+5680.4s 531 "num_hidden_layers": 12,
+5680.4s 532 "output_hidden_states": true,
+5680.4s 533 "pad_token_id": 0,
+5680.4s 534 "pooler_dropout": 0,
+5680.4s 535 "pooler_hidden_act": "gelu",
+5680.4s 536 "pooler_hidden_size": 768,
+5680.4s 537 "pos_att_type": [
+5680.4s 538 "p2c",
+5680.4s 539 "c2p"
+5680.4s 540 ],
+5680.4s 541 "position_biased_input": false,
+5680.4s 542 "position_buckets": 256,
+5680.4s 543 "relative_attention": true,
+5680.4s 544 "share_att_key": true,
+5680.4s 545 "transformers_version": "4.42.3",
+5680.4s 546 "type_vocab_size": 0,
+5680.4s 547 "vocab_size": 128100
+5680.4s 548 }
+5680.4s 549 
+5680.4s 550 DebertaV2Config {
+5680.4s 551 "_name_or_path": "microsoft/deberta-v3-base",
+5680.4s 552 "attention_dropout": 0.0,
+5680.4s 553 "attention_probs_dropout_prob": 0.0,
+5680.4s 554 "hidden_act": "gelu",
+5680.4s 555 "hidden_dropout": 0.0,
+5680.4s 556 "hidden_dropout_prob": 0.0,
+5680.4s 557 "hidden_size": 768,
+5680.4s 558 "initializer_range": 0.02,
+5680.4s 559 "intermediate_size": 3072,
+5680.4s 560 "layer_norm_eps": 1e-07,
+5680.4s 561 "max_position_embeddings": 512,
+5680.4s 562 "max_relative_positions": -1,
+5680.4s 563 "model_type": "deberta-v2",
+5680.4s 564 "norm_rel_ebd": "layer_norm",
+5680.4s 565 "num_attention_heads": 12,
+5680.4s 566 "num_hidden_layers": 12,
+5680.4s 567 "output_hidden_states": true,
+5680.4s 568 "pad_token_id": 0,
+5680.4s 569 "pooler_dropout": 0,
+5680.4s 570 "pooler_hidden_act": "gelu",
+5680.4s 571 "pooler_hidden_size": 768,
+5680.4s 572 "pos_att_type": [
+5680.4s 573 "p2c",
+5680.4s 574 "c2p"
+5680.4s 575 ],
+5680.4s 576 "position_biased_input": false,
+5680.4s 577 "position_buckets": 256,
+5680.4s 578 "relative_attention": true,
+5680.4s 579 "share_att_key": true,
+5680.4s 580 "transformers_version": "4.42.3",
+5680.4s 581 "type_vocab_size": 0,
+5680.4s 582 "vocab_size": 128100
+5680.4s 583 }
+5680.4s 584 
+5680.4s 585 DebertaV2Config {
+5680.4s 586 "_name_or_path": "microsoft/deberta-v3-base",
+5680.4s 587 "attention_dropout": 0.0,
+5680.4s 588 "attention_probs_dropout_prob": 0.0,
+5680.4s 589 "hidden_act": "gelu",
+5680.4s 590 "hidden_dropout": 0.0,
+5680.4s 591 "hidden_dropout_prob": 0.0,
+5680.4s 592 "hidden_size": 768,
+5680.4s 593 "initializer_range": 0.02,
+5680.4s 594 "intermediate_size": 3072,
+5680.4s 595 "layer_norm_eps": 1e-07,
+5680.4s 596 "max_position_embeddings": 512,
+5680.4s 597 "max_relative_positions": -1,
+5680.4s 598 "model_type": "deberta-v2",
+5680.4s 599 "norm_rel_ebd": "layer_norm",
+5680.4s 600 "num_attention_heads": 12,
+5680.4s 601 "num_hidden_layers": 12,
+5680.4s 602 "output_hidden_states": true,
+5680.4s 603 "pad_token_id": 0,
+5680.4s 604 "pooler_dropout": 0,
+5680.4s 605 "pooler_hidden_act": "gelu",
+5680.4s 606 "pooler_hidden_size": 768,
+5680.4s 607 "pos_att_type": [
+5680.4s 608 "p2c",
+5680.4s 609 "c2p"
+5680.4s 610 ],
+5680.4s 611 "position_biased_input": false,
+5680.4s 612 "position_buckets": 256,
+5680.4s 613 "relative_attention": true,
+5680.4s 614 "share_att_key": true,
+5680.4s 615 "transformers_version": "4.42.3",
+5680.4s 616 "type_vocab_size": 0,
+5680.4s 617 "vocab_size": 128100
+5680.4s 618 }
+5680.4s 619 
+5683.3s 620 Epoch: [1][0/366] Elapsed 0m 2.2457926273345947s (remain 13m 39.714308977127075s) Loss: 3.0163(3.0163) Grad: inf  LR: 0.00002000
+5716.3s 621 Epoch: [1][20/366] Elapsed 0m 35.185842752456665s (remain 9m 38.05313093321661s) Loss: 0.4737(1.8033) Grad: 144670.1719  LR: 0.00001999
+5750.6s 622 Epoch: [1][40/366] Elapsed 1m 9.504003524780273s (remain 9m 10.946369403746075s) Loss: 0.2832(1.0197) Grad: 261539.9062  LR: 0.00001996
+5786.5s 623 Epoch: [1][60/366] Elapsed 1m 45.409878730773926s (remain 8m 47.04939365386963s) Loss: 0.1675(0.7386) Grad: 94226.2891  LR: 0.00001991
+5819.0s 624 Epoch: [1][80/366] Elapsed 2m 17.94214177131653s (remain 8m 5.351980306484052s) Loss: 0.0748(0.5926) Grad: 61629.5703  LR: 0.00001985
+5851.3s 625 Epoch: [1][100/366] Elapsed 2m 50.229453802108765s (remain 7m 26.641636213453694s) Loss: 0.1089(0.5035) Grad: 40288.9883  LR: 0.00001977
+5888.7s 626 Epoch: [1][120/366] Elapsed 3m 27.59132432937622s (remain 7m 0.3295409974973609s) Loss: 0.1107(0.4428) Grad: 71218.7500  LR: 0.00001967
+5927.4s 627 Epoch: [1][140/366] Elapsed 4m 6.31814432144165s (remain 6m 33.060868598045204s) Loss: 0.0683(0.3988) Grad: 56500.3281  LR: 0.00001955
+5967.4s 628 Epoch: [1][160/366] Elapsed 4m 46.26108431816101s (remain 6m 4.493927237410048s) Loss: 0.0793(0.3660) Grad: 46252.9531  LR: 0.00001941
+6004.5s 629 Epoch: [1][180/366] Elapsed 5m 23.345086336135864s (remain 5m 30.49083410047035s) Loss: 0.0725(0.3402) Grad: 64668.4648  LR: 0.00001926
+6038.7s 630 Epoch: [1][200/366] Elapsed 5m 57.6025390625s (remain 4m 53.55432311100742s) Loss: 0.0798(0.3191) Grad: 45241.6133  LR: 0.00001909
+6077.7s 631 Epoch: [1][220/366] Elapsed 6m 36.56770896911621s (remain 4m 20.191483260279824s) Loss: 0.1058(0.3024) Grad: 30930.5410  LR: 0.00001890
+6109.0s 632 Epoch: [1][240/366] Elapsed 7m 7.922914981842041s (remain 3m 41.95171938892224s) Loss: 0.0929(0.2864) Grad: 43280.0469  LR: 0.00001870
+6143.4s 633 Epoch: [1][260/366] Elapsed 7m 42.27163004875183s (remain 3m 5.971345421911678s) Loss: 0.0860(0.2747) Grad: 48688.8008  LR: 0.00001848
+6179.5s 634 Epoch: [1][280/366] Elapsed 8m 18.4285728931427s (remain 2m 30.77020888226741s) Loss: 0.1359(0.2670) Grad: 55088.9375  LR: 0.00001824
+6212.3s 635 Epoch: [1][300/366] Elapsed 8m 51.182597637176514s (remain 1m 54.707205469822156s) Loss: 0.1244(0.2569) Grad: 60540.9883  LR: 0.00001799
+6246.7s 636 Epoch: [1][320/366] Elapsed 9m 25.573824882507324s (remain 1m 19.286050217173965s) Loss: 0.0847(0.2475) Grad: 38093.0117  LR: 0.00001773
+6284.8s 637 Epoch: [1][340/366] Elapsed 10m 3.742414712905884s (remain 0m 44.262640374846455s) Loss: 0.1420(0.2410) Grad: 110536.9531  LR: 0.00001745
+6322.4s 638 Epoch: [1][360/366] Elapsed 10m 41.33835768699646s (remain 0m 8.882802738047076s) Loss: 0.1034(0.2345) Grad: 74112.3828  LR: 0.00001715
+6331.4s 639 Epoch: [1][365/366] Elapsed 10m 50.3086040019989s (remain 0m 0.0s) Loss: 0.1309(0.2333) Grad: 68492.2578  LR: 0.00001708
+6333.5s 640 EVAL: [0/62] Elapsed 0m 2.0812761783599854s (remain 2m 6.9578468799591064s) Loss: 0.1423(0.1423)
+6355.3s 641 EVAL: [20/62] Elapsed 0m 23.842562437057495s (remain 0m 46.54976475806464s) Loss: 0.0873(0.1383)
+6375.3s 642 EVAL: [40/62] Elapsed 0m 43.8696653842926s (remain 0m 22.46982861146695s) Loss: 0.1041(0.1351)
+6397.5s 643 EVAL: [60/62] Elapsed 1m 5.999019384384155s (remain 0m 1.0819511374489252s) Loss: 0.1086(0.1346)
+6397.5s 644 EVAL: [61/62] Elapsed 1m 6.0842273235321045s (remain 0m 0.0s) Loss: 0.1149(0.1346)
+6397.5s 645 Epoch 1 - avg_train_loss: 0.2333  avg_val_loss: 0.1346  time: 717s
+6397.5s 646 Epoch 1 - avg_train_loss: 0.2333  avg_val_loss: 0.1346  time: 717s
+6397.5s 647 Epoch 1 - avg_train_loss: 0.2333  avg_val_loss: 0.1346  time: 717s
+6397.5s 648 Epoch 1 - Score: 0.5205  Scores: [0.5714390509787702, 0.5595214192968992, 0.45141269350854063, 0.531121735344764, 0.5255743578557635, 0.48398003412418306]
+6397.5s 649 Epoch 1 - Score: 0.5205  Scores: [0.5714390509787702, 0.5595214192968992, 0.45141269350854063, 0.531121735344764, 0.5255743578557635, 0.48398003412418306]
+6397.5s 650 Epoch 1 - Score: 0.5205  Scores: [0.5714390509787702, 0.5595214192968992, 0.45141269350854063, 0.531121735344764, 0.5255743578557635, 0.48398003412418306]
+6397.5s 651 Epoch 1 - Save Best Score: 0.5205 Model
+6397.5s 652 Epoch 1 - Save Best Score: 0.5205 Model
+6397.5s 653 Epoch 1 - Save Best Score: 0.5205 Model
+6400.4s 654 Epoch: [2][0/366] Elapsed 0m 1.6082515716552734s (remain 9m 47.011823654174805s) Loss: 0.1358(0.1358) Grad: 179552.2656  LR: 0.00001706
+6433.6s 655 Epoch: [2][20/366] Elapsed 0m 34.781744956970215s (remain 9m 31.414381435939276s) Loss: 0.1094(0.1289) Grad: 159190.9062  LR: 0.00001675
+6470.6s 656 Epoch: [2][40/366] Elapsed 1m 11.777383804321289s (remain 9m 28.967066741571216s) Loss: 0.1355(0.1199) Grad: 204698.6875  LR: 0.00001643
+6502.2s 657 Epoch: [2][60/366] Elapsed 1m 43.36678647994995s (remain 8m 36.833932399749756s) Loss: 0.0913(0.1123) Grad: 96688.5781  LR: 0.00001610
+6542.3s 658 Epoch: [2][80/366] Elapsed 2m 23.4962477684021s (remain 8m 24.89420511104447s) Loss: 0.1048(0.1106) Grad: 127753.7500  LR: 0.00001575
+6572.5s 659 Epoch: [2][100/366] Elapsed 2m 53.684192180633545s (remain 7m 35.706048790771206s) Loss: 0.1434(0.1095) Grad: 92634.1406  LR: 0.00001540
+6608.4s 660 Epoch: [2][120/366] Elapsed 3m 29.62291693687439s (remain 7m 4.443096277142445s) Loss: 0.0965(0.1083) Grad: 132380.5156  LR: 0.00001503
+6640.6s 661 Epoch: [2][140/366] Elapsed 4m 1.808286190032959s (remain 6m 25.8642864734569s) Loss: 0.1398(0.1072) Grad: 105323.4844  LR: 0.00001466
+6673.1s 662 Epoch: [2][160/366] Elapsed 4m 34.24323916435242s (remain 5m 49.191702041566714s) Loss: 0.0739(0.1075) Grad: 53886.4453  LR: 0.00001427
+6703.5s 663 Epoch: [2][180/366] Elapsed 5m 4.6155149936676025s (remain 5m 11.347349579163051s) Loss: 0.0961(0.1072) Grad: 97699.9141  LR: 0.00001388
+6744.0s 664 Epoch: [2][200/366] Elapsed 5m 45.15631818771362s (remain 4m 43.33727612424241s) Loss: 0.1374(0.1073) Grad: 141049.1094  LR: 0.00001348
+6783.5s 665 Epoch: [2][220/366] Elapsed 6m 24.64239740371704s (remain 4m 12.367183816918441s) Loss: 0.0605(0.1070) Grad: 102564.6484  LR: 0.00001308
+6816.9s 666 Epoch: [2][240/366] Elapsed 6m 58.11278247833252s (remain 3m 36.86347638917664s) Loss: 0.1119(0.1066) Grad: 79490.2812  LR: 0.00001267
+6855.9s 667 Epoch: [2][260/366] Elapsed 7m 37.059725284576416s (remain 3m 3.8746021259789813s) Loss: 0.0929(0.1069) Grad: 178969.5156  LR: 0.00001225
+6894.8s 668 Epoch: [2][280/366] Elapsed 8m 16.001174926757812s (remain 2m 30.03594259350325s) Loss: 0.0802(0.1071) Grad: 55244.1094  LR: 0.00001183
+6928.5s 669 Epoch: [2][300/366] Elapsed 8m 49.62127900123596s (remain 1m 54.3700436381406s) Loss: 0.0800(0.1075) Grad: 72400.1250  LR: 0.00001141
+6960.6s 670 Epoch: [2][320/366] Elapsed 9m 21.785249710083008s (remain 1m 18.754941548142483s) Loss: 0.1456(0.1072) Grad: 102549.8359  LR: 0.00001098
+6994.9s 671 Epoch: [2][340/366] Elapsed 9m 56.09346866607666s (remain 0m 43.70186720425784s) Loss: 0.1180(0.1072) Grad: 55278.9141  LR: 0.00001056
+7038.2s 672 Epoch: [2][360/366] Elapsed 10m 39.371575593948364s (remain 0m 8.855561988835916s) Loss: 0.1096(0.1066) Grad: 54029.7891  LR: 0.00001013
+7046.8s 673 Epoch: [2][365/366] Elapsed 10m 47.96888613700867s (remain 0m 0.0s) Loss: 0.0820(0.1064) Grad: 159135.0156  LR: 0.00001002
+7048.7s 674 EVAL: [0/62] Elapsed 0m 1.9135310649871826s (remain 1m 56.72539496421814s) Loss: 0.1401(0.1401)
+7070.1s 675 EVAL: [20/62] Elapsed 0m 23.255096435546875s (remain 0m 45.40280732654391s) Loss: 0.1021(0.1128)
+7089.9s 676 EVAL: [40/62] Elapsed 0m 43.065330505371094s (remain 0m 22.05785221006812s) Loss: 0.0971(0.1106)
+7111.9s 677 EVAL: [60/62] Elapsed 1m 5.00718355178833s (remain 0m 1.0656915336358708s) Loss: 0.0949(0.1109)
+7111.9s 678 EVAL: [61/62] Elapsed 1m 5.092584609985352s (remain 0m 0.0s) Loss: 0.1863(0.1110)
+7112.0s 679 Epoch 2 - avg_train_loss: 0.1064  avg_val_loss: 0.1110  time: 713s
+7112.0s 680 Epoch 2 - avg_train_loss: 0.1064  avg_val_loss: 0.1110  time: 713s
+7112.0s 681 Epoch 2 - avg_train_loss: 0.1064  avg_val_loss: 0.1110  time: 713s
+7112.0s 682 Epoch 2 - Score: 0.4725  Scores: [0.4998034521535346, 0.4604998326954337, 0.4329570388441768, 0.47186224334312193, 0.49871444429218004, 0.47110184455581267]
+7112.0s 683 Epoch 2 - Score: 0.4725  Scores: [0.4998034521535346, 0.4604998326954337, 0.4329570388441768, 0.47186224334312193, 0.49871444429218004, 0.47110184455581267]
+7112.0s 684 Epoch 2 - Score: 0.4725  Scores: [0.4998034521535346, 0.4604998326954337, 0.4329570388441768, 0.47186224334312193, 0.49871444429218004, 0.47110184455581267]
+7112.0s 685 Epoch 2 - Save Best Score: 0.4725 Model
+7112.0s 686 Epoch 2 - Save Best Score: 0.4725 Model
+7112.0s 687 Epoch 2 - Save Best Score: 0.4725 Model
+7114.8s 688 Epoch: [3][0/366] Elapsed 0m 1.1275818347930908s (remain 6m 51.56736969947815s) Loss: 0.0966(0.0966) Grad: 86158.0547  LR: 0.00001000
+7152.0s 689 Epoch: [3][20/366] Elapsed 0m 38.33470416069031s (remain 10m 29.784425497055054s) Loss: 0.0971(0.0951) Grad: 170800.0469  LR: 0.00000957
+7184.7s 690 Epoch: [3][40/366] Elapsed 1m 11.019256114959717s (remain 9m 22.957517984436777s) Loss: 0.0989(0.0980) Grad: 91776.7109  LR: 0.00000914
+7221.9s 691 Epoch: [3][60/366] Elapsed 1m 48.208473920822144s (remain 9m 1.0423696041107178s) Loss: 0.0815(0.1036) Grad: 96305.0000  LR: 0.00000872
+7253.5s 692 Epoch: [3][80/366] Elapsed 2m 19.82034420967102s (remain 8m 11.96047036736104s) Loss: 0.1074(0.1030) Grad: 39627.6367  LR: 0.00000829
+7289.8s 693 Epoch: [3][100/366] Elapsed 2m 56.14810132980347s (remain 7m 42.17076091483091s) Loss: 0.1078(0.1005) Grad: 132437.5781  LR: 0.00000787
+7330.1s 694 Epoch: [3][120/366] Elapsed 3m 36.48101329803467s (remain 7m 18.32932444643393s) Loss: 0.0757(0.0996) Grad: 99541.7344  LR: 0.00000746
+7363.3s 695 Epoch: [3][140/366] Elapsed 4m 9.628046989440918s (remain 6m 38.3426281746398s) Loss: 0.0864(0.1012) Grad: 77049.3672  LR: 0.00000704
+7400.5s 696 Epoch: [3][160/366] Elapsed 4m 46.777745962142944s (remain 6m 5.151788336890149s) Loss: 0.0899(0.1011) Grad: 147974.5469  LR: 0.00000664
+7438.1s 697 Epoch: [3][180/366] Elapsed 5m 24.408840656280518s (remain 5m 31.578096803380618s) Loss: 0.1104(0.1002) Grad: 161727.0938  LR: 0.00000624
+7475.8s 698 Epoch: [3][200/366] Elapsed 6m 2.1739132404327393s (remain 4m 57.30694370483275s) Loss: 0.0841(0.0999) Grad: 70525.5938  LR: 0.00000584
+7509.4s 699 Epoch: [3][220/366] Elapsed 6m 35.74066495895386s (remain 4m 19.648852574879243s) Loss: 0.0537(0.0993) Grad: 87897.2500  LR: 0.00000546
+7543.6s 700 Epoch: [3][240/366] Elapsed 7m 9.927777528762817s (remain 3m 42.9915858551675s) Loss: 0.0642(0.0981) Grad: 162016.8281  LR: 0.00000508
+7573.6s 701 Epoch: [3][260/366] Elapsed 7m 39.95593023300171s (remain 3m 5.039742047759319s) Loss: 0.1236(0.0982) Grad: 104036.7109  LR: 0.00000471
+7611.5s 702 Epoch: [3][280/366] Elapsed 8m 17.833252906799316s (remain 2m 30.590129882839733s) Loss: 0.1117(0.0980) Grad: 108005.3359  LR: 0.00000435
+7644.7s 703 Epoch: [3][300/366] Elapsed 8m 51.05827498435974s (remain 1m 54.68035838532683s) Loss: 0.1092(0.0986) Grad: 160300.4219  LR: 0.00000400
+7686.7s 704 Epoch: [3][320/366] Elapsed 9m 33.02366375923157s (remain 1m 20.330420153163345s) Loss: 0.0558(0.0983) Grad: 90159.7266  LR: 0.00000367
+7723.8s 705 Epoch: [3][340/366] Elapsed 10m 10.176547527313232s (remain 0m 44.73435099173844s) Loss: 0.1088(0.0979) Grad: 62393.6445  LR: 0.00000334
+7756.7s 706 Epoch: [3][360/366] Elapsed 10m 43.02441215515137s (remain 0m 8.9061552930076s) Loss: 0.1014(0.0979) Grad: 93201.1719  LR: 0.00000303
+7766.8s 707 Epoch: [3][365/366] Elapsed 10m 53.166528940200806s (remain 0m 0.0s) Loss: 0.1090(0.0978) Grad: 100925.7422  LR: 0.00000295
+7768.7s 708 EVAL: [0/62] Elapsed 0m 1.8926386833190918s (remain 1m 55.4509596824646s) Loss: 0.1314(0.1314)
+7790.1s 709 EVAL: [20/62] Elapsed 0m 23.233888387680054s (remain 0m 45.361401137851544s) Loss: 0.0865(0.1097)
+7809.9s 710 EVAL: [40/62] Elapsed 0m 43.04455590248108s (remain 0m 22.04721155980738s) Loss: 0.0902(0.1076)
+7831.9s 711 EVAL: [60/62] Elapsed 1m 4.982599258422852s (remain 0m 1.0652885124331561s) Loss: 0.0982(0.1083)
+7831.9s 712 EVAL: [61/62] Elapsed 1m 5.068627119064331s (remain 0m 0.0s) Loss: 0.1335(0.1084)
+7832.0s 713 Epoch 3 - avg_train_loss: 0.0978  avg_val_loss: 0.1084  time: 718s
+7832.0s 714 Epoch 3 - avg_train_loss: 0.0978  avg_val_loss: 0.1084  time: 718s
+7832.0s 715 Epoch 3 - avg_train_loss: 0.0978  avg_val_loss: 0.1084  time: 718s
+7832.0s 716 Epoch 3 - Score: 0.4668  Scores: [0.49585242845238453, 0.4552140881101316, 0.4257396470007643, 0.4700818709272433, 0.4907757341078487, 0.46286893432560255]
+7832.0s 717 Epoch 3 - Score: 0.4668  Scores: [0.49585242845238453, 0.4552140881101316, 0.4257396470007643, 0.4700818709272433, 0.4907757341078487, 0.46286893432560255]
+7832.0s 718 Epoch 3 - Score: 0.4668  Scores: [0.49585242845238453, 0.4552140881101316, 0.4257396470007643, 0.4700818709272433, 0.4907757341078487, 0.46286893432560255]
+7832.0s 719 Epoch 3 - Save Best Score: 0.4668 Model
+7832.0s 720 Epoch 3 - Save Best Score: 0.4668 Model
+7832.0s 721 Epoch 3 - Save Best Score: 0.4668 Model
+7835.0s 722 Epoch: [4][0/366] Elapsed 0m 1.333427906036377s (remain 8m 6.701185703277588s) Loss: 0.0780(0.0780) Grad: 231297.4219  LR: 0.00000294
+7872.0s 723 Epoch: [4][20/366] Elapsed 0m 38.303531885147095s (remain 10m 29.27230954170227s) Loss: 0.0673(0.0971) Grad: 93296.5312  LR: 0.00000264
+7907.1s 724 Epoch: [4][40/366] Elapsed 1m 13.425384998321533s (remain 9m 42.03049084035365s) Loss: 0.0827(0.0925) Grad: 165083.0469  LR: 0.00000236
+7939.6s 725 Epoch: [4][60/366] Elapsed 1m 45.95567464828491s (remain 8m 49.77837324142456s) Loss: 0.0882(0.0905) Grad: 75189.1562  LR: 0.00000209
+7978.8s 726 Epoch: [4][80/366] Elapsed 2m 25.163652420043945s (remain 8m 30.760999255710203s) Loss: 0.1185(0.0904) Grad: 140020.5000  LR: 0.00000183
+8016.4s 727 Epoch: [4][100/366] Elapsed 3m 2.7476704120635986s (remain 7m 59.48646197224616s) Loss: 0.0588(0.0902) Grad: 60576.3789  LR: 0.00000159
+8049.2s 728 Epoch: [4][120/366] Elapsed 3m 35.51195049285889s (remain 7m 16.367172485540777s) Loss: 0.0990(0.0915) Grad: 136395.5625  LR: 0.00000137
+8088.9s 729 Epoch: [4][140/366] Elapsed 4m 15.186045408248901s (remain 6m 47.211774587631226s) Loss: 0.0827(0.0931) Grad: 201851.1875  LR: 0.00000116
+8126.2s 730 Epoch: [4][160/366] Elapsed 4m 52.592625856399536s (remain 6m 12.555827953800645s) Loss: 0.0664(0.0920) Grad: 77315.8281  LR: 0.00000097
+8158.1s 731 Epoch: [4][180/366] Elapsed 5m 24.470598697662354s (remain 5m 31.641219663356537s) Loss: 0.0706(0.0915) Grad: 79061.1250  LR: 0.00000079
+8195.5s 732 Epoch: [4][200/366] Elapsed 6m 1.8227965831756592s (remain 4m 57.018713613054615s) Loss: 0.0774(0.0919) Grad: 58817.3438  LR: 0.00000063
+8234.5s 733 Epoch: [4][220/366] Elapsed 6m 40.86679458618164s (remain 4m 23.012150294101048s) Loss: 0.1045(0.0924) Grad: 84182.8750  LR: 0.00000049
+8270.3s 734 Epoch: [4][240/366] Elapsed 7m 16.6286780834198s (remain 3m 46.46715668227171s) Loss: 0.0880(0.0917) Grad: 45840.0625  LR: 0.00000037
+8304.0s 735 Epoch: [4][260/366] Elapsed 7m 50.317042112350464s (remain 3m 9.208005447497271s) Loss: 0.1052(0.0913) Grad: 102898.1016  LR: 0.00000026
+8336.4s 736 Epoch: [4][280/366] Elapsed 8m 22.759384632110596s (remain 2m 32.08024090295169s) Loss: 0.0910(0.0911) Grad: 137490.2344  LR: 0.00000017
+8366.6s 737 Epoch: [4][300/366] Elapsed 8m 52.98683214187622s (remain 1m 55.09682421668424s) Loss: 0.0815(0.0908) Grad: 136817.0469  LR: 0.00000010
+8401.5s 738 Epoch: [4][320/366] Elapsed 9m 27.827710390090942s (remain 1m 19.60201547524639s) Loss: 0.1068(0.0908) Grad: 58086.9531  LR: 0.00000005
+8437.0s 739 Epoch: [4][340/366] Elapsed 10m 3.301119089126587s (remain 0m 44.23028732324974s) Loss: 0.0737(0.0907) Grad: 71104.4453  LR: 0.00000002
+8472.8s 740 Epoch: [4][360/366] Elapsed 10m 39.17610025405884s (remain 0m 8.852854574155913s) Loss: 0.1133(0.0906) Grad: 90963.9922  LR: 0.00000000
+8479.8s 741 Epoch: [4][365/366] Elapsed 10m 46.2143030166626s (remain 0m 0.0s) Loss: 0.0879(0.0907) Grad: 72475.3125  LR: 0.00000000
+8481.8s 742 EVAL: [0/62] Elapsed 0m 1.9234812259674072s (remain 1m 57.33235478401184s) Loss: 0.1306(0.1306)
+8503.2s 743 EVAL: [20/62] Elapsed 0m 23.259350776672363s (remain 0m 45.41111342112224s) Loss: 0.0923(0.1090)
+8522.9s 744 EVAL: [40/62] Elapsed 0m 43.0633807182312s (remain 0m 22.056853538606234s) Loss: 0.0916(0.1073)
+8544.9s 745 EVAL: [60/62] Elapsed 1m 5.007534503936768s (remain 0m 1.065697286949785s) Loss: 0.0990(0.1081)
+8545.0s 746 EVAL: [61/62] Elapsed 1m 5.092851161956787s (remain 0m 0.0s) Loss: 0.1501(0.1082)
+8545.0s 747 Epoch 4 - avg_train_loss: 0.0907  avg_val_loss: 0.1082  time: 711s
+8545.0s 748 Epoch 4 - avg_train_loss: 0.0907  avg_val_loss: 0.1082  time: 711s
+8545.0s 749 Epoch 4 - avg_train_loss: 0.0907  avg_val_loss: 0.1082  time: 711s
+8545.0s 750 Epoch 4 - Score: 0.4663  Scores: [0.4948563088425619, 0.45577592150489726, 0.42298675732239305, 0.46957241590190474, 0.4903278447886838, 0.4642236705404268]
+8545.0s 751 Epoch 4 - Score: 0.4663  Scores: [0.4948563088425619, 0.45577592150489726, 0.42298675732239305, 0.46957241590190474, 0.4903278447886838, 0.4642236705404268]
+8545.0s 752 Epoch 4 - Score: 0.4663  Scores: [0.4948563088425619, 0.45577592150489726, 0.42298675732239305, 0.46957241590190474, 0.4903278447886838, 0.4642236705404268]
+8545.0s 753 Epoch 4 - Save Best Score: 0.4663 Model
+8545.0s 754 Epoch 4 - Save Best Score: 0.4663 Model
+8545.0s 755 Epoch 4 - Save Best Score: 0.4663 Model
+8547.5s 756 -------------- Fold: 2 Result --------------
+8547.5s 757 -------------- Fold: 2 Result --------------
+8547.5s 758 -------------- Fold: 2 Result --------------
+8547.5s 759 Score: 0.4663  Scores: [0.4948563088425619, 0.45577592150489726, 0.42298675732239305, 0.46957241590190474, 0.4903278447886838, 0.4642236705404268]
+8547.5s 760 Score: 0.4663  Scores: [0.4948563088425619, 0.45577592150489726, 0.42298675732239305, 0.46957241590190474, 0.4903278447886838, 0.4642236705404268]
+8547.5s 761 Score: 0.4663  Scores: [0.4948563088425619, 0.45577592150489726, 0.42298675732239305, 0.46957241590190474, 0.4903278447886838, 0.4642236705404268]
+8547.5s 762 -------------- Fold: 3 Training --------------
+8547.5s 763 -------------- Fold: 3 Training --------------
+8547.5s 764 -------------- Fold: 3 Training --------------
+8547.6s 765 DebertaV2Config {
+8547.6s 766 "_name_or_path": "microsoft/deberta-v3-base",
+8547.6s 767 "attention_dropout": 0.0,
+8547.6s 768 "attention_probs_dropout_prob": 0.0,
+8547.6s 769 "hidden_act": "gelu",
+8547.6s 770 "hidden_dropout": 0.0,
+8547.6s 771 "hidden_dropout_prob": 0.0,
+8547.6s 772 "hidden_size": 768,
+8547.6s 773 "initializer_range": 0.02,
+8547.6s 774 "intermediate_size": 3072,
+8547.6s 775 "layer_norm_eps": 1e-07,
+8547.6s 776 "max_position_embeddings": 512,
+8547.6s 777 "max_relative_positions": -1,
+8547.6s 778 "model_type": "deberta-v2",
+8547.6s 779 "norm_rel_ebd": "layer_norm",
+8547.6s 780 "num_attention_heads": 12,
+8547.6s 781 "num_hidden_layers": 12,
+8547.6s 782 "output_hidden_states": true,
+8547.6s 783 "pad_token_id": 0,
+8547.6s 784 "pooler_dropout": 0,
+8547.6s 785 "pooler_hidden_act": "gelu",
+8547.6s 786 "pooler_hidden_size": 768,
+8547.6s 787 "pos_att_type": [
+8547.6s 788 "p2c",
+8547.6s 789 "c2p"
+8547.6s 790 ],
+8547.6s 791 "position_biased_input": false,
+8547.6s 792 "position_buckets": 256,
+8547.6s 793 "relative_attention": true,
+8547.6s 794 "share_att_key": true,
+8547.6s 795 "transformers_version": "4.42.3",
+8547.6s 796 "type_vocab_size": 0,
+8547.6s 797 "vocab_size": 128100
+8547.6s 798 }
+8547.6s 799 
+8547.6s 800 DebertaV2Config {
+8547.6s 801 "_name_or_path": "microsoft/deberta-v3-base",
+8547.6s 802 "attention_dropout": 0.0,
+8547.6s 803 "attention_probs_dropout_prob": 0.0,
+8547.6s 804 "hidden_act": "gelu",
+8547.6s 805 "hidden_dropout": 0.0,
+8547.6s 806 "hidden_dropout_prob": 0.0,
+8547.6s 807 "hidden_size": 768,
+8547.6s 808 "initializer_range": 0.02,
+8547.6s 809 "intermediate_size": 3072,
+8547.6s 810 "layer_norm_eps": 1e-07,
+8547.6s 811 "max_position_embeddings": 512,
+8547.6s 812 "max_relative_positions": -1,
+8547.6s 813 "model_type": "deberta-v2",
+8547.6s 814 "norm_rel_ebd": "layer_norm",
+8547.6s 815 "num_attention_heads": 12,
+8547.6s 816 "num_hidden_layers": 12,
+8547.6s 817 "output_hidden_states": true,
+8547.6s 818 "pad_token_id": 0,
+8547.6s 819 "pooler_dropout": 0,
+8547.6s 820 "pooler_hidden_act": "gelu",
+8547.6s 821 "pooler_hidden_size": 768,
+8547.6s 822 "pos_att_type": [
+8547.6s 823 "p2c",
+8547.6s 824 "c2p"
+8547.6s 825 ],
+8547.6s 826 "position_biased_input": false,
+8547.6s 827 "position_buckets": 256,
+8547.6s 828 "relative_attention": true,
+8547.6s 829 "share_att_key": true,
+8547.6s 830 "transformers_version": "4.42.3",
+8547.6s 831 "type_vocab_size": 0,
+8547.6s 832 "vocab_size": 128100
+8547.6s 833 }
+8547.6s 834 
+8547.6s 835 DebertaV2Config {
+8547.6s 836 "_name_or_path": "microsoft/deberta-v3-base",
+8547.6s 837 "attention_dropout": 0.0,
+8547.6s 838 "attention_probs_dropout_prob": 0.0,
+8547.6s 839 "hidden_act": "gelu",
+8547.6s 840 "hidden_dropout": 0.0,
+8547.6s 841 "hidden_dropout_prob": 0.0,
+8547.6s 842 "hidden_size": 768,
+8547.6s 843 "initializer_range": 0.02,
+8547.6s 844 "intermediate_size": 3072,
+8547.6s 845 "layer_norm_eps": 1e-07,
+8547.6s 846 "max_position_embeddings": 512,
+8547.6s 847 "max_relative_positions": -1,
+8547.6s 848 "model_type": "deberta-v2",
+8547.6s 849 "norm_rel_ebd": "layer_norm",
+8547.6s 850 "num_attention_heads": 12,
+8547.6s 851 "num_hidden_layers": 12,
+8547.6s 852 "output_hidden_states": true,
+8547.6s 853 "pad_token_id": 0,
+8547.6s 854 "pooler_dropout": 0,
+8547.6s 855 "pooler_hidden_act": "gelu",
+8547.6s 856 "pooler_hidden_size": 768,
+8547.6s 857 "pos_att_type": [
+8547.6s 858 "p2c",
+8547.6s 859 "c2p"
+8547.6s 860 ],
+8547.6s 861 "position_biased_input": false,
+8547.6s 862 "position_buckets": 256,
+8547.6s 863 "relative_attention": true,
+8547.6s 864 "share_att_key": true,
+8547.6s 865 "transformers_version": "4.42.3",
+8547.6s 866 "type_vocab_size": 0,
+8547.6s 867 "vocab_size": 128100
+8547.6s 868 }
+8547.6s 869 
+8549.5s 870 Epoch: [1][0/366] Elapsed 0m 1.3283483982086182s (remain 8m 4.84716534614563s) Loss: 2.3001(2.3001) Grad: inf  LR: 0.00002000
+8583.9s 871 Epoch: [1][20/366] Elapsed 0m 35.64258360862732s (remain 9m 45.55673071316312s) Loss: 0.1903(1.2432) Grad: 93996.5312  LR: 0.00001999
+8617.9s 872 Epoch: [1][40/366] Elapsed 1m 9.636314153671265s (remain 9m 11.995173169345435s) Loss: 0.1751(0.7305) Grad: 154923.5469  LR: 0.00001996
+8648.5s 873 Epoch: [1][60/366] Elapsed 1m 40.249086141586304s (remain 8m 21.24543070793152s) Loss: 0.1939(0.5361) Grad: 66061.9375  LR: 0.00001991
+8682.8s 874 Epoch: [1][80/366] Elapsed 2m 14.572437524795532s (remain 7m 53.495613513169474s) Loss: 0.1141(0.4418) Grad: 46557.2109  LR: 0.00001985
+8719.0s 875 Epoch: [1][100/366] Elapsed 2m 50.788082122802734s (remain 7m 28.107344183591408s) Loss: 0.0940(0.3858) Grad: 89923.6172  LR: 0.00001977
+8751.2s 876 Epoch: [1][120/366] Elapsed 3m 22.930988311767578s (remain 6m 50.89332344118236s) Loss: 0.0949(0.3449) Grad: 81041.9922  LR: 0.00001967
+8794.4s 877 Epoch: [1][140/366] Elapsed 4m 6.102240324020386s (remain 6m 32.7163409425857s) Loss: 0.1098(0.3149) Grad: 62001.9102  LR: 0.00001955
+8833.2s 878 Epoch: [1][160/366] Elapsed 4m 45.016167879104614s (remain 6m 2.9087851876797686s) Loss: 0.1124(0.2932) Grad: 109054.7500  LR: 0.00001941
+8875.2s 879 Epoch: [1][180/366] Elapsed 5m 26.9288067817688s (remain 5m 34.1537527879957s) Loss: 0.1301(0.2760) Grad: 32814.2188  LR: 0.00001926
+8908.8s 880 Epoch: [1][200/366] Elapsed 6m 0.5924484729766846s (remain 4m 56.00872635841358s) Loss: 0.1648(0.2633) Grad: 107702.1484  LR: 0.00001909
+8945.9s 881 Epoch: [1][220/366] Elapsed 6m 37.70530462265015s (remain 4m 20.937869548797607s) Loss: 0.1494(0.2503) Grad: 66542.5156  LR: 0.00001890
+8988.1s 882 Epoch: [1][240/366] Elapsed 7m 19.8536593914032s (remain 3m 48.13986482956602s) Loss: 0.1055(0.2408) Grad: 27718.5195  LR: 0.00001870
+9022.8s 883 Epoch: [1][260/366] Elapsed 7m 54.54921889305115s (remain 3m 10.910605301802207s) Loss: 0.0760(0.2320) Grad: 57490.5039  LR: 0.00001848
+9057.2s 884 Epoch: [1][280/366] Elapsed 8m 28.939029455184937s (remain 2m 33.94952848288517s) Loss: 0.1485(0.2239) Grad: 72498.3359  LR: 0.00001824
+9091.7s 885 Epoch: [1][300/366] Elapsed 9m 3.469109058380127s (remain 1m 57.36043883320497s) Loss: 0.1593(0.2173) Grad: 47762.7461  LR: 0.00001799
+9126.0s 886 Epoch: [1][320/366] Elapsed 9m 37.77811646461487s (remain 1m 20.996932214665662s) Loss: 0.1069(0.2111) Grad: 87389.8906  LR: 0.00001773
+9163.7s 887 Epoch: [1][340/366] Elapsed 10m 15.47451138496399s (remain 0m 45.12276476429349s) Loss: 0.1312(0.2056) Grad: 45709.0039  LR: 0.00001745
+9192.4s 888 Epoch: [1][360/366] Elapsed 10m 44.18564510345459s (remain 0m 8.92223885184842s) Loss: 0.0718(0.2002) Grad: 70900.1797  LR: 0.00001715
+9200.3s 889 Epoch: [1][365/366] Elapsed 10m 52.04967713356018s (remain 0m 0.0s) Loss: 0.1307(0.1989) Grad: 54966.0078  LR: 0.00001708
+9202.2s 890 EVAL: [0/62] Elapsed 0m 1.9517405033111572s (remain 1m 59.05617070198059s) Loss: 0.1115(0.1115)
+9223.1s 891 EVAL: [20/62] Elapsed 0m 22.85332751274109s (remain 0m 44.61840133439928s) Loss: 0.0751(0.1090)
+9245.3s 892 EVAL: [40/62] Elapsed 0m 44.952266216278076s (remain 0m 23.024331476630238s) Loss: 0.1038(0.1126)
+9266.9s 893 EVAL: [60/62] Elapsed 1m 6.543551445007324s (remain 0m 1.0908778925411013s) Loss: 0.0934(0.1115)
+9266.9s 894 EVAL: [61/62] Elapsed 1m 6.62902045249939s (remain 0m 0.0s) Loss: 0.0781(0.1115)
+9267.0s 895 Epoch 1 - avg_train_loss: 0.1989  avg_val_loss: 0.1115  time: 719s
+9267.0s 896 Epoch 1 - avg_train_loss: 0.1989  avg_val_loss: 0.1115  time: 719s
+9267.0s 897 Epoch 1 - avg_train_loss: 0.1989  avg_val_loss: 0.1115  time: 719s
+9267.0s 898 Epoch 1 - Score: 0.4735  Scores: [0.5010590169003221, 0.47825368719900785, 0.43119850530949266, 0.4564830721051112, 0.5151271146117318, 0.45868793268578395]
+9267.0s 899 Epoch 1 - Score: 0.4735  Scores: [0.5010590169003221, 0.47825368719900785, 0.43119850530949266, 0.4564830721051112, 0.5151271146117318, 0.45868793268578395]
+9267.0s 900 Epoch 1 - Score: 0.4735  Scores: [0.5010590169003221, 0.47825368719900785, 0.43119850530949266, 0.4564830721051112, 0.5151271146117318, 0.45868793268578395]
+9267.0s 901 Epoch 1 - Save Best Score: 0.4735 Model
+9267.0s 902 Epoch 1 - Save Best Score: 0.4735 Model
+9267.0s 903 Epoch 1 - Save Best Score: 0.4735 Model
+9269.4s 904 Epoch: [2][0/366] Elapsed 0m 1.2251482009887695s (remain 7m 27.17909336090088s) Loss: 0.1699(0.1699) Grad: 281611.7812  LR: 0.00001706
+9300.2s 905 Epoch: [2][20/366] Elapsed 0m 31.901274919509888s (remain 8m 44.09237367766241s) Loss: 0.1483(0.1094) Grad: 126266.0938  LR: 0.00001675
+9335.7s 906 Epoch: [2][40/366] Elapsed 1m 7.428476572036743s (remain 8m 54.494021607608374s) Loss: 0.0537(0.1068) Grad: 66066.7500  LR: 0.00001643
+9370.5s 907 Epoch: [2][60/366] Elapsed 1m 42.22316026687622s (remain 8m 31.115801334381104s) Loss: 0.0887(0.1095) Grad: 160959.6875  LR: 0.00001610
+9404.9s 908 Epoch: [2][80/366] Elapsed 2m 16.662351369857788s (remain 8m 0.8490140791292333s) Loss: 0.1204(0.1086) Grad: 145632.4219  LR: 0.00001575
+9437.8s 909 Epoch: [2][100/366] Elapsed 2m 49.52981519699097s (remain 7m 24.80595076438226s) Loss: 0.0850(0.1101) Grad: 71234.4531  LR: 0.00001540
+9469.9s 910 Epoch: [2][120/366] Elapsed 3m 21.58826208114624s (remain 6m 48.17458024694906s) Loss: 0.0641(0.1103) Grad: 126402.1562  LR: 0.00001503
+9508.9s 911 Epoch: [2][140/366] Elapsed 4m 0.6551322937011719s (remain 6m 24.024147277182692s) Loss: 0.1107(0.1099) Grad: 109704.4375  LR: 0.00001466
+9543.5s 912 Epoch: [2][160/366] Elapsed 4m 35.224464893341064s (remain 5m 50.441088839347344s) Loss: 0.0745(0.1092) Grad: 117688.6094  LR: 0.00001427
+9574.6s 913 Epoch: [2][180/366] Elapsed 5m 6.317244052886963s (remain 5m 13.086685910409301s) Loss: 0.1036(0.1083) Grad: 117075.2891  LR: 0.00001388
+9609.7s 914 Epoch: [2][200/366] Elapsed 5m 41.473756313323975s (remain 4m 40.31427757063898s) Loss: 0.1066(0.1071) Grad: 125819.4453  LR: 0.00001348
+9646.6s 915 Epoch: [2][220/366] Elapsed 6m 18.298218727111816s (remain 4m 8.204713644485082s) Loss: 0.0963(0.1079) Grad: 65820.3281  LR: 0.00001308
+9679.3s 916 Epoch: [2][240/366] Elapsed 6m 51.01014471054077s (remain 3m 33.17953563824733s) Loss: 0.1719(0.1082) Grad: 205736.6875  LR: 0.00001267
+9715.5s 917 Epoch: [2][260/366] Elapsed 7m 27.2496817111969s (remain 2m 59.928032872320614s) Loss: 0.1556(0.1085) Grad: 75890.2891  LR: 0.00001225
+9758.7s 918 Epoch: [2][280/366] Elapsed 8m 10.413780927658081s (remain 2m 28.345805618686654s) Loss: 0.1130(0.1094) Grad: 79694.1484  LR: 0.00001183
+9801.6s 919 Epoch: [2][300/366] Elapsed 8m 53.32638168334961s (remain 1m 55.17014886849745s) Loss: 0.1143(0.1087) Grad: 122752.7891  LR: 0.00001141
+9831.1s 920 Epoch: [2][320/366] Elapsed 9m 22.819576025009155s (remain 1m 18.899940564253598s) Loss: 0.0868(0.1087) Grad: 103168.4531  LR: 0.00001098
+9866.0s 921 Epoch: [2][340/366] Elapsed 9m 57.77318096160889s (remain 0m 43.825013266980136s) Loss: 0.1411(0.1083) Grad: 151451.1875  LR: 0.00001056
+9903.1s 922 Epoch: [2][360/366] Elapsed 10m 34.798325538635254s (remain 0m 8.792220575327406s) Loss: 0.1591(0.1077) Grad: 109374.0312  LR: 0.00001013
+9912.0s 923 Epoch: [2][365/366] Elapsed 10m 43.71902894973755s (remain 0m 0.0s) Loss: 0.0699(0.1074) Grad: 62244.5742  LR: 0.00001002
+9913.8s 924 EVAL: [0/62] Elapsed 0m 1.841770887374878s (remain 1m 52.348024129867554s) Loss: 0.1029(0.1029)
+9934.7s 925 EVAL: [20/62] Elapsed 0m 22.64879822731018s (remain 0m 44.21908225331988s) Loss: 0.0694(0.1042)
+9956.7s 926 EVAL: [40/62] Elapsed 0m 44.75567102432251s (remain 0m 22.923636378311528s) Loss: 0.1119(0.1071)
+9978.4s 927 EVAL: [60/62] Elapsed 1m 6.341570615768433s (remain 0m 1.0875667314060422s) Loss: 0.0892(0.1075)
+9978.4s 928 EVAL: [61/62] Elapsed 1m 6.426740407943726s (remain 0m 0.0s) Loss: 0.0581(0.1074)
+9978.5s 929 Epoch 2 - avg_train_loss: 0.1074  avg_val_loss: 0.1074  time: 710s
+9978.5s 930 Epoch 2 - avg_train_loss: 0.1074  avg_val_loss: 0.1074  time: 710s
+9978.5s 931 Epoch 2 - avg_train_loss: 0.1074  avg_val_loss: 0.1074  time: 710s
+9978.5s 932 Epoch 2 - Score: 0.4644  Scores: [0.5029250594206895, 0.4592603443470239, 0.4237988234970271, 0.44305175068704095, 0.49538123306381493, 0.46172617207695116]
+9978.5s 933 Epoch 2 - Score: 0.4644  Scores: [0.5029250594206895, 0.4592603443470239, 0.4237988234970271, 0.44305175068704095, 0.49538123306381493, 0.46172617207695116]
+9978.5s 934 Epoch 2 - Score: 0.4644  Scores: [0.5029250594206895, 0.4592603443470239, 0.4237988234970271, 0.44305175068704095, 0.49538123306381493, 0.46172617207695116]
+9978.5s 935 Epoch 2 - Save Best Score: 0.4644 Model
+9978.5s 936 Epoch 2 - Save Best Score: 0.4644 Model
+9978.5s 937 Epoch 2 - Save Best Score: 0.4644 Model
+9983.7s 938 Epoch: [3][0/366] Elapsed 0m 3.5668835639953613s (remain 21m 41.912500858306885s) Loss: 0.0792(0.0792) Grad: 214046.9062  LR: 0.00001000
+10017.6s 939 Epoch: [3][20/366] Elapsed 0m 37.40606689453125s (remain 10m 14.528241838727695s) Loss: 0.1321(0.1041) Grad: 148328.6406  LR: 0.00000957
+10052.9s 940 Epoch: [3][40/366] Elapsed 1m 12.7668297290802s (remain 9m 36.810235657343014s) Loss: 0.1109(0.1041) Grad: 71792.0234  LR: 0.00000914
+10085.4s 941 Epoch: [3][60/366] Elapsed 1m 45.2635064125061s (remain 8m 46.31753206253052s) Loss: 0.0836(0.1026) Grad: 92856.4141  LR: 0.00000872
+10127.0s 942 Epoch: [3][80/366] Elapsed 2m 26.821272373199463s (remain 8m 36.59336575755367s) Loss: 0.0700(0.0993) Grad: 109516.1250  LR: 0.00000829
+10167.1s 943 Epoch: [3][100/366] Elapsed 3m 6.9331793785095215s (remain 8m 10.468242923812227s) Loss: 0.1476(0.0994) Grad: 69746.9609  LR: 0.00000787
+10202.8s 944 Epoch: [3][120/366] Elapsed 3m 42.610825061798096s (remain 7m 30.740926778020935s) Loss: 0.0919(0.0995) Grad: 71405.8750  LR: 0.00000746
+10235.7s 945 Epoch: [3][140/366] Elapsed 4m 15.566661357879639s (remain 6m 47.819140464701604s) Loss: 0.1272(0.0994) Grad: 90305.9219  LR: 0.00000704
+10267.6s 946 Epoch: [3][160/366] Elapsed 4m 47.43063402175903s (remain 6m 5.983105431432364s) Loss: 0.0755(0.0994) Grad: 90438.6641  LR: 0.00000664
+10302.4s 947 Epoch: [3][180/366] Elapsed 5m 22.31808638572693s (remain 5m 29.44113801856065s) Loss: 0.1101(0.0984) Grad: 45429.4023  LR: 0.00000624
+10343.0s 948 Epoch: [3][200/366] Elapsed 6m 2.7946317195892334s (remain 4m 57.816488725035924s) Loss: 0.1247(0.0988) Grad: 113110.9219  LR: 0.00000584
+10382.6s 949 Epoch: [3][220/366] Elapsed 6m 42.42713952064514s (remain 4m 24.03590602033273s) Loss: 0.0534(0.0986) Grad: 61746.1680  LR: 0.00000546
+10416.4s 950 Epoch: [3][240/366] Elapsed 7m 16.23466920852661s (remain 3m 46.26279523263838s) Loss: 0.1055(0.0986) Grad: 100574.2812  LR: 0.00000508
+10444.8s 951 Epoch: [3][260/366] Elapsed 7m 44.70111584663391s (remain 3m 6.948724765887164s) Loss: 0.0600(0.0981) Grad: 84272.3516  LR: 0.00000471
+10487.6s 952 Epoch: [3][280/366] Elapsed 8m 27.429680347442627s (remain 2m 33.4929638061659s) Loss: 0.0920(0.0983) Grad: 114289.9609  LR: 0.00000435
+10521.4s 953 Epoch: [3][300/366] Elapsed 9m 1.2394623756408691s (remain 1m 56.87895366915836s) Loss: 0.1198(0.0987) Grad: 157748.6875  LR: 0.00000400
+10556.3s 954 Epoch: [3][320/366] Elapsed 9m 36.14010763168335s (remain 1m 20.767304808179915s) Loss: 0.0692(0.0985) Grad: 85474.0625  LR: 0.00000367
+10590.2s 955 Epoch: [3][340/366] Elapsed 10m 10.120191097259521s (remain 0m 44.73021928865535s) Loss: 0.1446(0.0981) Grad: 165865.5156  LR: 0.00000334
+10622.0s 956 Epoch: [3][360/366] Elapsed 10m 41.90592408180237s (remain 0m 8.890663768446075s) Loss: 0.0924(0.0979) Grad: 119158.2344  LR: 0.00000303
+10629.3s 957 Epoch: [3][365/366] Elapsed 10m 49.133944034576416s (remain 0m 0.0s) Loss: 0.0731(0.0977) Grad: 64757.9258  LR: 0.00000295
+10631.1s 958 EVAL: [0/62] Elapsed 0m 1.8143911361694336s (remain 1m 50.67785930633545s) Loss: 0.1108(0.1108)
+10651.9s 959 EVAL: [20/62] Elapsed 0m 22.62522864341736s (remain 0m 44.173065446671984s) Loss: 0.0654(0.1013)
+10674.0s 960 EVAL: [40/62] Elapsed 0m 44.72532081604004s (remain 0m 22.908091149679052s) Loss: 0.1075(0.1027)
+10695.6s 961 EVAL: [60/62] Elapsed 1m 6.3213629722595215s (remain 0m 1.0872354585616364s) Loss: 0.0868(0.1027)
+10695.7s 962 EVAL: [61/62] Elapsed 1m 6.406892538070679s (remain 0m 0.0s) Loss: 0.0430(0.1026)
+10695.7s 963 Epoch 3 - avg_train_loss: 0.0977  avg_val_loss: 0.1026  time: 716s
+10695.7s 964 Epoch 3 - avg_train_loss: 0.0977  avg_val_loss: 0.1026  time: 716s
+10695.7s 965 Epoch 3 - avg_train_loss: 0.0977  avg_val_loss: 0.1026  time: 716s
+10695.7s 966 Epoch 3 - Score: 0.4537  Scores: [0.4934557352675193, 0.44715104630050523, 0.41675045667314187, 0.43741707697555404, 0.4791070240191483, 0.44857977959372924]
+10695.7s 967 Epoch 3 - Score: 0.4537  Scores: [0.4934557352675193, 0.44715104630050523, 0.41675045667314187, 0.43741707697555404, 0.4791070240191483, 0.44857977959372924]
+10695.7s 968 Epoch 3 - Score: 0.4537  Scores: [0.4934557352675193, 0.44715104630050523, 0.41675045667314187, 0.43741707697555404, 0.4791070240191483, 0.44857977959372924]
+10695.7s 969 Epoch 3 - Save Best Score: 0.4537 Model
+10695.7s 970 Epoch 3 - Save Best Score: 0.4537 Model
+10695.7s 971 Epoch 3 - Save Best Score: 0.4537 Model
+10698.7s 972 Epoch: [4][0/366] Elapsed 0m 1.2709407806396484s (remain 7m 43.89338493347168s) Loss: 0.0919(0.0919) Grad: 178113.1562  LR: 0.00000294
+10736.0s 973 Epoch: [4][20/366] Elapsed 0m 38.614577531814575s (remain 10m 34.38234516552518s) Loss: 0.1059(0.0887) Grad: 171086.4531  LR: 0.00000264
+10769.7s 974 Epoch: [4][40/366] Elapsed 1m 12.21560001373291s (remain 9m 32.44073181617546s) Loss: 0.1089(0.0907) Grad: 193368.9375  LR: 0.00000236
+10803.4s 975 Epoch: [4][60/366] Elapsed 1m 46.02885556221008s (remain 8m 50.144277811050415s) Loss: 0.0928(0.0893) Grad: 111031.3203  LR: 0.00000209
+10838.7s 976 Epoch: [4][80/366] Elapsed 2m 21.21178436279297s (remain 8m 16.85627831353088s) Loss: 0.1118(0.0910) Grad: 139166.9531  LR: 0.00000183
+10874.9s 977 Epoch: [4][100/366] Elapsed 2m 57.482216596603394s (remain 7m 45.671162357424805s) Loss: 0.1084(0.0904) Grad: 155990.2031  LR: 0.00000159
+10912.3s 978 Epoch: [4][120/366] Elapsed 3m 34.86956262588501s (remain 7m 15.066469779684553s) Loss: 0.0716(0.0906) Grad: 121697.5625  LR: 0.00000137
+10947.7s 979 Epoch: [4][140/366] Elapsed 4m 10.22010588645935s (remain 6m 39.28740301030746s) Loss: 0.1367(0.0913) Grad: 41414.5820  LR: 0.00000116
+10984.6s 980 Epoch: [4][160/366] Elapsed 4m 47.138375997543335s (remain 6m 5.610975649045827s) Loss: 0.0774(0.0922) Grad: 63241.3594  LR: 0.00000097
+11022.1s 981 Epoch: [4][180/366] Elapsed 5m 24.694239139556885s (remain 5m 31.869802435458723s) Loss: 0.0700(0.0915) Grad: 61111.3633  LR: 0.00000079
+11057.8s 982 Epoch: [4][200/366] Elapsed 6m 0.36438989639282227s (remain 4m 55.82151409405378s) Loss: 0.0957(0.0925) Grad: 83902.1641  LR: 0.00000063
+11095.0s 983 Epoch: [4][220/366] Elapsed 6m 37.58649206161499s (remain 4m 20.85991560603702s) Loss: 0.0967(0.0926) Grad: 51616.1602  LR: 0.00000049
+11130.9s 984 Epoch: [4][240/366] Elapsed 7m 13.418149948120117s (remain 3m 44.80194499383833s) Loss: 0.0906(0.0921) Grad: 84214.0156  LR: 0.00000037
+11163.9s 985 Epoch: [4][260/366] Elapsed 7m 46.46859693527222s (remain 3m 7.6597803762589365s) Loss: 0.0787(0.0914) Grad: 63073.0234  LR: 0.00000026
+11200.2s 986 Epoch: [4][280/366] Elapsed 8m 22.795334577560425s (remain 2m 32.09111544161078s) Loss: 0.0725(0.0920) Grad: 52780.3125  LR: 0.00000017
+11233.9s 987 Epoch: [4][300/366] Elapsed 8m 56.4456570148468s (remain 1m 55.84374653144528s) Loss: 0.1030(0.0924) Grad: 41044.4570  LR: 0.00000010
+11272.7s 988 Epoch: [4][320/366] Elapsed 9m 35.226529598236084s (remain 1m 20.639233121248026s) Loss: 0.0869(0.0921) Grad: 44752.9883  LR: 0.00000005
+11309.5s 989 Epoch: [4][340/366] Elapsed 10m 12.041178941726685s (remain 0m 44.87105417461339s) Loss: 0.0892(0.0924) Grad: 93580.2812  LR: 0.00000002
+11344.9s 990 Epoch: [4][360/366] Elapsed 10m 47.4675555229187s (remain 0m 8.967694674832728s) Loss: 0.0790(0.0922) Grad: 120856.1641  LR: 0.00000000
+11352.8s 991 Epoch: [4][365/366] Elapsed 10m 55.39699149131775s (remain 0m 0.0s) Loss: 0.0590(0.0920) Grad: 47501.2539  LR: 0.00000000
+11354.7s 992 EVAL: [0/62] Elapsed 0m 1.829045057296753s (remain 1m 51.57174849510193s) Loss: 0.1062(0.1062)
+11375.5s 993 EVAL: [20/62] Elapsed 0m 22.64033794403076s (remain 0m 44.2025645573934s) Loss: 0.0659(0.1005)
+11397.6s 994 EVAL: [40/62] Elapsed 0m 44.7345232963562s (remain 0m 22.912804615206838s) Loss: 0.1116(0.1022)
+11419.2s 995 EVAL: [60/62] Elapsed 1m 6.32243537902832s (remain 0m 1.0872530390004584s) Loss: 0.0854(0.1023)
+11419.3s 996 EVAL: [61/62] Elapsed 1m 6.407538175582886s (remain 0m 0.0s) Loss: 0.0439(0.1022)
+11419.3s 997 Epoch 4 - avg_train_loss: 0.0920  avg_val_loss: 0.1022  time: 722s
+11419.3s 998 Epoch 4 - avg_train_loss: 0.0920  avg_val_loss: 0.1022  time: 722s
+11419.3s 999 Epoch 4 - avg_train_loss: 0.0920  avg_val_loss: 0.1022  time: 722s
+11419.3s 1000 Epoch 4 - Score: 0.4529  Scores: [0.4921639281734279, 0.44554200282019857, 0.41619033453492316, 0.4377017705858207, 0.47835316513491927, 0.4477035645197291]
+11419.3s 1001 Epoch 4 - Score: 0.4529  Scores: [0.4921639281734279, 0.44554200282019857, 0.41619033453492316, 0.4377017705858207, 0.47835316513491927, 0.4477035645197291]
+11419.3s 1002 Epoch 4 - Score: 0.4529  Scores: [0.4921639281734279, 0.44554200282019857, 0.41619033453492316, 0.4377017705858207, 0.47835316513491927, 0.4477035645197291]
+11419.3s 1003 Epoch 4 - Save Best Score: 0.4529 Model
+11419.3s 1004 Epoch 4 - Save Best Score: 0.4529 Model
+11419.3s 1005 Epoch 4 - Save Best Score: 0.4529 Model
+11421.6s 1006 -------------- Fold: 3 Result --------------
+11421.6s 1007 -------------- Fold: 3 Result --------------
+11421.6s 1008 -------------- Fold: 3 Result --------------
+11421.6s 1009 Score: 0.4529  Scores: [0.4921639281734279, 0.44554200282019857, 0.41619033453492316, 0.4377017705858207, 0.47835316513491927, 0.4477035645197291]
+11421.6s 1010 Score: 0.4529  Scores: [0.4921639281734279, 0.44554200282019857, 0.41619033453492316, 0.4377017705858207, 0.47835316513491927, 0.4477035645197291]
+11421.6s 1011 Score: 0.4529  Scores: [0.4921639281734279, 0.44554200282019857, 0.41619033453492316, 0.4377017705858207, 0.47835316513491927, 0.4477035645197291]
+11421.6s 1012 -------------- CV --------------
+11421.6s 1013 -------------- CV --------------
+11421.6s 1014 -------------- CV --------------
+11421.6s 1015 Score: 0.4566  Scores: [0.4918876971579929, 0.4469576360148223, 0.4160717358387817, 0.45263454809558296, 0.4799977263344696, 0.45200731981193293]
+11421.6s 1016 Score: 0.4566  Scores: [0.4918876971579929, 0.4469576360148223, 0.4160717358387817, 0.45263454809558296, 0.4799977263344696, 0.45200731981193293]
+11421.6s 1017 Score: 0.4566  Scores: [0.4918876971579929, 0.4469576360148223, 0.4160717358387817, 0.45263454809558296, 0.4799977263344696, 0.45200731981193293]
+11425.9s 1018 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+11425.9s 1019 warn(
+11425.9s 1020 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+11425.9s 1021 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+11426.5s 1022 [NbConvertApp] Writing 97909 bytes to __notebook__.ipynb
+11428.2s 1023 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+11428.2s 1024 warn(
+11428.2s 1025 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+11428.3s 1026 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+11429.2s 1027 [NbConvertApp] Writing 358744 bytes to __results__.html

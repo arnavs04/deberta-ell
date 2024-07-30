@@ -27,7 +27,11 @@ print("Imports Done")
 
 # set environment variable
 os.environ['TOKENIZERS_PARALLELISM'] = 'true'
-OUTPUT_DIR = '/kaggle/working/' # 'deberta-ell/logs'
+
+# dir path setup
+OUTPUT_DIR = '../deberta-ell/logs'
+MODEL_DIR = '../deberta-ell/models'
+MODEL_PARAM_DIR = MODEL_DIR + '/params'
 
 # setup
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -35,8 +39,8 @@ LOGGER = get_logger()
 seed_everything(seed=42)
 
 # load data
-train = pd.read_csv('/kaggle/input/feedback-prize-english-language-learning/train.csv') # 'deberta-ell/data/feedback-prize-english-language-learning/train.csv'
-test = pd.read_csv('/kaggle/input/feedback-prize-english-language-learning/test.csv') # 'deberta-ell/data/feedback-prize-english-language-learning/test.csv'
+train = pd.read_csv('../deberta-ell/data/feedback-prize-english-language-learning/train.csv') # 'deberta-ell/data/feedback-prize-english-language-learning/train.csv'
+test = pd.read_csv('../deberta-ell/data/feedback-prize-english-language-learning/test.csv') # 'deberta-ell/data/feedback-prize-english-language-learning/test.csv'
 
 # prepare data
 Fold = MultilabelStratifiedKFold(n_splits=CFG.n_fold, shuffle=True, random_state=CFG.seed)
@@ -120,7 +124,7 @@ def train_loop(folds, fold):
 
     # model
     model = CustomModel(CFG, config_path=None, pretrained=True)
-    torch.save(model.config, OUTPUT_DIR + 'config.pth')
+    torch.save(model.config, MODEL_DIR + 'config.pth')
     model.to(device)
     
     # optimizer and scheduler
@@ -161,9 +165,9 @@ def train_loop(folds, fold):
             LOGGER.info(f'Epoch {epoch+1} - Save Best Score: {best_score:.4f} Model')
             torch.save({'model': model.state_dict(),
                         'predictions': predictions},
-                       OUTPUT_DIR + f"{CFG.model.replace('/', '-')}_fold{fold}_best.pth")
+                       MODEL_PARAM_DIR + f"{CFG.model.replace('/', '-')}_fold{fold}_best.pth")
 
-    predictions = torch.load(OUTPUT_DIR + f"{CFG.model.replace('/', '-')}_fold{fold}_best.pth",
+    predictions = torch.load(MODEL_PARAM_DIR + f"{CFG.model.replace('/', '-')}_fold{fold}_best.pth",
                              map_location=torch.device('cpu'))['predictions']
     valid_folds[[f"pred_{c}" for c in CFG.target_cols]] = predictions
 
