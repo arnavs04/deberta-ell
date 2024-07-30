@@ -112,13 +112,25 @@ def clear_model_from_memory(model):
     torch.cuda.empty_cache()
 
 
-def count_model_flops(model: nn.Module, input_size=(3, 224, 224), print_results=True):
+def count_model_complexity(model, seq_length=128, vocab_size=30522, print_results=True):
     try:
+        input_size = (1, seq_length)  # Batch size of 1
+
+        def prepare_input(input_size):
+            input_ids = torch.randint(0, vocab_size, input_size)
+            attention_mask = torch.ones_like(input_ids)
+            return {'input_ids': input_ids, 'attention_mask': attention_mask}
+
         macs, params = get_model_complexity_info(
-            model, input_size, as_strings=False, print_per_layer_stat=False, verbose=False
+            model, 
+            input_size,
+            as_strings=False,
+            print_per_layer_stat=False, 
+            verbose=False,
+            input_constructor=prepare_input
         )
-        
-        gflops = macs / 1e9  # convert MACs to GFLOPs
+
+        gflops = macs / 1e9  # Convert MACs to GFLOPs
 
         if print_results:
             print(f'Computational Complexity: {gflops:.3f} GFLOPs')

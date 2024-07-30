@@ -69,3 +69,10 @@ class CustomModel(nn.Module):
         feature = self.feature(inputs)
         output = self.fc(feature)
         return output
+
+    # def forward(self, input_ids, attention_mask):
+    #     # for checking model complexity and size
+    #     inputs = {'input_ids': input_ids, 'attention_mask': attention_mask}
+    #     feature = self.feature(inputs)
+    #     output = self.fc(feature)
+    #     return output
