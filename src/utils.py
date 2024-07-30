@@ -30,18 +30,15 @@ class AverageMeter:
 
 
 def mcrmse(y_trues, y_preds):
-    scores = []
-    num_cols = y_trues.shape[1]
-    for i in range(num_cols):
-        y_true = y_trues[:, i]
-        y_pred = y_preds[:, i]
-        score = mean_squared_error(y_true, y_pred, squared=False)  # RMSE
-        scores.append(score)
-    mcrmse_score = np.mean(scores)
-    return mcrmse_score, scores
+    mse = np.mean((y_trues - y_preds)**2, axis=0)
+    rmse = np.sqrt(mse)
+    return np.mean(rmse), rmse.tolist()
 
 
 def get_score(y_trues, y_preds):
+    # Ensure inputs are numpy arrays
+    y_trues = np.array(y_trues)
+    y_preds = np.array(y_preds)
     return mcrmse(y_trues, y_preds)
 
 
