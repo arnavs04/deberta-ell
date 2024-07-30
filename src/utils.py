@@ -121,8 +121,8 @@ def count_model_flops(model: nn.Module, input_size=(3, 224, 224), print_results=
         gflops = macs / 1e9  # convert MACs to GFLOPs
 
         if print_results:
-            print(f'Computational complexity: {gflops:.3f} GFLOPs')
-            print(f'Number of parameters: {params / 1e6:.3f} M')
+            print(f'Computational Complexity: {gflops:.3f} GFLOPs')
+            print(f'Number of Parameters: {params / 1e6:.3f} M')
 
         return gflops, params
     except Exception as e:
