@@ -20,10 +20,7 @@ class AverageMeter:
         self.reset()
 
     def reset(self):
-        self.val = 0
-        self.avg = 0
-        self.sum = 0
-        self.count = 0
+        self.val = self.avg = self.sum = self.count = 0
 
     def update(self, val, n=1):
         self.val = val
@@ -45,38 +42,36 @@ def mcrmse(y_trues, y_preds):
 
 
 def get_score(y_trues, y_preds):
-    mcrmse_score, scores = mcrmse(y_trues, y_preds)
-    return mcrmse_score, scores
+    return mcrmse(y_trues, y_preds)
 
 
 def get_logger(filename='./train'):
     logger = getLogger(__name__)
-    logger.setLevel(INFO)
-    
-    stream_handler = StreamHandler()
-    stream_handler.setFormatter(Formatter("%(message)s"))
-    
-    file_handler = FileHandler(filename=f"{filename}.log")
-    file_handler.setFormatter(Formatter("%(message)s"))
-    
-    logger.addHandler(stream_handler)
-    logger.addHandler(file_handler)
-    
+    if not logger.hasHandlers():
+        logger.setLevel(INFO)
+        stream_handler = StreamHandler()
+        stream_handler.setFormatter(Formatter("%(message)s"))
+
+        file_handler = FileHandler(filename=f"{filename}.log")
+        file_handler.setFormatter(Formatter("%(message)s"))
+
+        logger.addHandler(stream_handler)
+        logger.addHandler(file_handler)
+
     return logger
 
 
 def as_minutes(s):
     m = math.floor(s / 60)
-    s -= m * 60
-    return f'{m}m {s}s'
+    return f'{m}m {s - m * 60}s'
 
 
 def time_since(since, percent):
     now = time.time()
-    s = now - since
-    es = s / percent
-    rs = es - s
-    return f'{as_minutes(s)} (remain {as_minutes(rs)})'
+    elapsed = now - since
+    est_total = elapsed / percent
+    remain = est_total - elapsed
+    return f'{as_minutes(elapsed)} (remain {as_minutes(remain)})'
 
 
 def save_model(model: nn.Module, target_dir: str, model_name: str):
@@ -91,11 +86,7 @@ def save_model(model: nn.Module, target_dir: str, model_name: str):
 
 
 def is_torch_available():
-    try:
-        import torch
-        return True
-    except ImportError:
-        return False
+    return torch is not None
 
 
 def seed_everything(seed=42):
