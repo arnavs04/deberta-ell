@@ -10,7 +10,6 @@ import torch
 from torch import nn
 
 import numpy as np
-from sklearn.metrics import mean_squared_error
 
 from ptflops import get_model_complexity_info
 
