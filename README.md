@@ -76,6 +76,8 @@ You can modify the hyperparameters in the `configs.py` file
 
 This project uses the DeBERTa-v3-base model as the backbone for essay analysis. The model is fine-tuned on the task of multi-aspect proficiency assessment, with a custom head for multi-label regression.
 
+![Model Architecture](misc/imgs/model-architecture.jpg)
+
 ## Performance
 
 The performance of the model was evaluated using Smooth L1 Loss for training and validation, and Mean Column-wise Root Mean Square Error (MCRMSE) score for the final evaluation. Below are the summarized results for each fold:
