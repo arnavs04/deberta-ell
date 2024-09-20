@@ -111,12 +111,6 @@ If you use this code for your research, please cite our project:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- The authors of the DeBERTa paper: Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen
-- The Hugging Face team for their excellent `transformers` library
-- The organizers of the Feedback Prize - English Language Learning competition on Kaggle
-
 ## Contact
 
 For any queries, please open an issue or contact [samalarnav@gmail.com](mailto:samalarnav@gmail.com).
